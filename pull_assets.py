@@ -11,8 +11,7 @@ def pull_assets():
     # save_asset_json(response)
 
 def save_asset_json(data):
-    display_id = str(data["display_id"])
-    with open(f"docs/assets/asset-{display_id}.json","w",encoding="UTF-8") as asset:
+    with open(f"docs/assets/asset-{str(data['display_id'])}.json","w",encoding="UTF-8") as asset:
         json.dump(data, asset, indent=4)
 
 if __name__ == "__main__":
