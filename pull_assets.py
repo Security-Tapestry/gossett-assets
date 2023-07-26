@@ -7,7 +7,7 @@ def pull_assets():
     request = requests.get(url, auth=('p4CWhwgKyWmyrJrKWJ','X'))
     response = request.json()
     print(response)
-    with open("assets.json","w",encoding="UTF-8") as assets:
+    with open("docs/assets.json","w",encoding="UTF-8") as assets:
         json.dump(response, assets, indent=4)
 
 if __name__ == "__main__":
