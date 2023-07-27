@@ -1,18 +1,20 @@
+from dotenv import load_dotenv
 import requests
 import json
+import os
+
+if not os.getenv("FS_API"):
+    load_dotenv()
 
 def pull_assets():
     url = "https://securitytapestry.freshservice.com/api/v2/assets?filter=\"department_id:21000185204\"&include=type_fields"
-    request = requests.get(url, auth=('p4CWhwgKyWmyrJrKWJ','X'))
+    request = requests.get(url, auth=(os.getenv("FS_API"),'X'))
     response = request.json()["assets"]
-    for asset in response:
-        save_asset_json(asset)
-    # print(response)
-    # save_asset_json(response)
+    save_asset_json(response)
 
 def save_asset_json(data):
-    with open(f"docs/assets/asset-{str(data['display_id'])}.json","w",encoding="UTF-8") as asset:
-        json.dump(data, asset, indent=4)
+    with open("docs/assets.json","w",encoding="UTF-8") as assets:
+        json.dump(data, assets, indent=4)
 
 if __name__ == "__main__":
     pull_assets()
