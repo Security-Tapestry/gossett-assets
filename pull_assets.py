@@ -66,15 +66,19 @@ def save_asset_json(data):
 
 def create_html(json_input):
     """Create HTML from JSON data"""
-    html_string = json2html.convert(json_input, 'id="assets" class="table table-bordered"')
+    html_string = json2html.convert(json_input, 'id="assets" class="dataframe sortable"')
     with open('docs/index.html','w',encoding='UTF-8') as html:
         html.write(
             '<!DOCTYPE html>\n'
             + '<html>\n<head>\n'
-            + '<link rel="stylesheet" href="style.css">\n</head>\n<body>\n'
+            + '<link rel="stylesheet" href="assets/dataframe.css">\n'
+            + '<link rel="stylesheet" href="assets/filtertable.css">\n'
+            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div>\n'
+            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search keywords..">\n'
             + f'<h2>Assets: {len(json_input)}</h2>\n'
             + html_string
-            + '\n</body>\n</html>')
+            + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
+            + '</div>\n</html>')
 
 
 def clean_json(json_input):
