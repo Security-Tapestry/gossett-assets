@@ -12,13 +12,12 @@ import requests
 if not os.getenv("FS_API"):
     load_dotenv()
 
-DEPARTMENT_ID = "21000376117"
+DEPARTMENT_ID = 21000376117
 
 
 def pull_assets():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets' + (
-        f'?filter="department_id:{DEPARTMENT_ID}"&include=type_fields' )
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&per_page=100'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
     save_asset_json(clean_json(response))
@@ -39,12 +38,14 @@ def create_html(json_input):
             '<!DOCTYPE html>\n'
             + '<html>\n<head>\n'
             + '<link rel="stylesheet" href="style.css">\n</head>\n<body>\n'
+            + f'<h2>Assets: {len(json_input)}</h2>\n'
             + html_string
             + '\n</body>\n</html>')
 
 
 def clean_json(json_input):
     """Remove unnecessary keys from JSON"""
+    iterator_1 = iterator_2 = 0
     remove_keys_primary = [
         'description','impact','usage_type',
         'asset_tag','user_id','location_id',
@@ -80,18 +81,31 @@ def clean_json(json_input):
         'last_login_by_21001393130': 'Last_Logged_in_User',
         'last_audit_date_21001393125': 'Last_Check_In'
     }
-    iterator = 0
     for asset in json_input:
-        if asset['author_type'] != 'Discovery Agent':
-            json_input.pop(iterator)
-        iterator += 1
+        if asset['author_type'] == 'User':
+            # print('\nAsset with author validation error: \n')
+            # print(asset)
+            json_input.pop(iterator_1)
+        iterator_1 += 1
+    for asset in json_input:
+        if asset['department_id'] != DEPARTMENT_ID:
+            # print('\nAsset with department validation error: \n')
+            # print(asset)
+            json_input.pop(iterator_2)
+        iterator_2 += 1
     for asset in json_input:
         for key in remove_keys_primary:
-            del asset[key]
+            asset.pop(key)
         for key in remove_keys_secondary:
-            del asset['type_fields'][key]
+            try:
+                asset['type_fields'].pop(key)
+            except KeyError:
+                continue
         for key,value in rename_keys.items():
-            asset['type_fields'][value] = asset['type_fields'].pop(key)
+            try:
+                asset['type_fields'][value] = asset['type_fields'].pop(key)
+            except KeyError:
+                continue
 
     return json_input
 
