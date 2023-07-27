@@ -14,6 +14,8 @@ if not os.getenv("FS_API"):
 
 DEPARTMENT_ID = 21000376117
 
+REQUEST_URL = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"' # pylint: disable=C0301
+
 
 def pull_assets():
     """Pull Assets from FreshService API"""
@@ -28,7 +30,7 @@ def pull_assets():
 
 def pull_assets_page_1():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"'
+    url = REQUEST_URL
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
     return response
@@ -36,7 +38,7 @@ def pull_assets_page_1():
 
 def pull_assets_page_2():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    url = REQUEST_URL + '&page=2'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
     return response
@@ -44,7 +46,7 @@ def pull_assets_page_2():
 
 def pull_assets_page_3():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    url = REQUEST_URL + '&page=3'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
     return response
@@ -52,7 +54,7 @@ def pull_assets_page_3():
 
 def pull_assets_page_4():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    url = REQUEST_URL + '&page=4'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
     return response
@@ -73,9 +75,9 @@ def create_html(json_input):
             + '<html>\n<head>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
-            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div class="table-container">\n'
+            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div class="table-container">\n' # pylint: disable=C0301
             + f'<h2>Assets: {len(json_input)}</h2>\n'
-            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search hostnames..">\n'
+            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search hostnames..">\n' # pylint: disable=C0301
             + html_string
             + '\n</div>\n</body>\n<script src="assets/filtertable.js"></script>\n'
             + '</html>')
@@ -121,14 +123,10 @@ def clean_json(json_input):
     }
     for asset in json_input:
         if asset['author_type'] == 'User':
-            # print('\nAsset with author validation error: \n')
-            # print(asset)
             json_input.pop(iterator_1)
         iterator_1 += 1
     for asset in json_input:
         if asset['department_id'] != DEPARTMENT_ID:
-            # print('\nAsset with department validation error: \n')
-            # print(asset)
             json_input.pop(iterator_2)
         iterator_2 += 1
     for asset in json_input:
