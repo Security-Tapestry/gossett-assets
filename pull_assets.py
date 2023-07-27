@@ -30,7 +30,13 @@ def save_asset_json(data):
 def create_html(json_input):
     html_string = json2html.convert(json_input, 'id="assets" class="table table-bordered"')
     with open('docs/index.html','w',encoding='UTF-8') as html:
-        html.write(html_string)
+        html.write(
+            '<!DOCTYPE html>\n'
+            + '<html>\n<head>\n'
+            + '<link rel="stylesheet" href="style.css">\n</head>\n<body>\n'
+            + html_string
+            + '\n</body>\n</html>'
+        )
 
 
 if __name__ == '__main__':
