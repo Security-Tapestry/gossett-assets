@@ -17,11 +17,45 @@ DEPARTMENT_ID = 21000376117
 
 def pull_assets():
     """Pull Assets from FreshService API"""
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&per_page=100'
-    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
-    response = request.json()['assets']
-    save_asset_json(clean_json(response))
+    page_1 = pull_assets_page_1()
+    page_2 = pull_assets_page_2()
+    page_3 = pull_assets_page_3()
+    page_4 = pull_assets_page_4()
+    combined_json = page_1 + page_2 + page_3 + page_4
+    save_asset_json(clean_json(combined_json))
     create_html(json.load(open('docs/assets.json', 'r', encoding='UTF-8')))
+
+
+def pull_assets_page_1():
+    """Pull Assets from FreshService API"""
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_2():
+    """Pull Assets from FreshService API"""
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_3():
+    """Pull Assets from FreshService API"""
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_4():
+    """Pull Assets from FreshService API"""
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"&page=2'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
 
 
 def save_asset_json(data):
