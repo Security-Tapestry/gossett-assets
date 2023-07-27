@@ -14,7 +14,8 @@ if not os.getenv("FS_API"):
 
 
 def pull_assets():
-    url = 'https://securitytapestry.freshservice.com/api/v2/assets?filter="department_id:21000185204"&include=type_fields'
+    url = 'https://securitytapestry.freshservice.com/api/v2/assets' + (
+        '?filter="department_id:21000185204"&include=type_fields' )
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
     save_asset_json(response)
