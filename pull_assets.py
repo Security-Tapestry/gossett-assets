@@ -73,12 +73,12 @@ def create_html(json_input):
             + '<html>\n<head>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
-            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div>\n'
+            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div class="table-container">\n'
             + f'<h2>Assets: {len(json_input)}</h2>\n'
             + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search keywords..">\n'
             + html_string
-            + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
-            + '</div>\n</html>')
+            + '\n</div>\n</body>\n<script src="assets/filtertable.js"></script>\n'
+            + '</html>')
 
 
 def clean_json(json_input):
