@@ -12,10 +12,13 @@ import requests
 if not os.getenv("FS_API"):
     load_dotenv()
 
+DEPARTMENT_ID = "21000185204"
+
 
 def pull_assets():
+    """Pull Assets from FreshService API"""
     url = 'https://securitytapestry.freshservice.com/api/v2/assets' + (
-        '?filter="department_id:21000185204"&include=type_fields' )
+        f'?filter="department_id:{DEPARTMENT_ID}"&include=type_fields' )
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
     save_asset_json(clean_json(response))
@@ -23,11 +26,13 @@ def pull_assets():
 
 
 def save_asset_json(data):
+    """Save JSON to file"""
     with open('docs/assets.json', 'w', encoding='UTF-8') as assets:
         json.dump(data, assets, indent=4)
 
 
 def create_html(json_input):
+    """Create HTML from JSON data"""
     html_string = json2html.convert(json_input, 'id="assets" class="table table-bordered"')
     with open('docs/index.html','w',encoding='UTF-8') as html:
         html.write(
@@ -35,11 +40,16 @@ def create_html(json_input):
             + '<html>\n<head>\n'
             + '<link rel="stylesheet" href="style.css">\n</head>\n<body>\n'
             + html_string
-            + '\n</body>\n</html>'
-        )
+            + '\n</body>\n</html>')
 
 
 def clean_json(json_input):
+    """Remove unnecessary keys from JSON"""
+    iterator = 0
+    for asset in json_input:
+        if asset['author_type'] != 'Discovery Agent':
+            json_input.pop(iterator)
+        iterator += 1
     for asset in json_input:
         del asset['description']
         del asset['impact']
@@ -57,6 +67,7 @@ def clean_json(json_input):
         del asset['author_type']
         del asset['asset_type_id']
         del asset['department_id']
+
     return json_input
 
 
