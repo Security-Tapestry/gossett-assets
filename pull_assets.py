@@ -28,7 +28,7 @@ def save_asset_json(data):
 
 
 def create_html(json_input):
-    html_string = json2html.convert(json_input)
+    html_string = json2html.convert(json_input, 'id="assets" class="table table-bordered"')
     with open('docs/index.html','w',encoding='UTF-8') as html:
         html.write(html_string)
 
