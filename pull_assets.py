@@ -12,7 +12,7 @@ import requests
 if not os.getenv("FS_API"):
     load_dotenv()
 
-DEPARTMENT_ID = "21000185204"
+DEPARTMENT_ID = "21000376117"
 
 
 def pull_assets():
@@ -45,28 +45,33 @@ def create_html(json_input):
 
 def clean_json(json_input):
     """Remove unnecessary keys from JSON"""
+    remove_keys_primary = [
+        'description','impact','usage_type',
+        'asset_tag','user_id','location_id',
+        'agent_id','group_id','assigned_on',
+        'created_at','updated_at','end_of_life',
+        'discovery_enabled','author_type','asset_type_id',
+        'department_id'
+        ]
+    remove_keys_secondary = [
+        'vendor_21001393125',
+        'cost_21001393125',
+        'warranty_21001393125',
+        'acquisition_date_21001393125',
+        'warranty_expiry_date_21001393125',
+        'depreciation_id',
+        'salvage'
+    ]
     iterator = 0
     for asset in json_input:
         if asset['author_type'] != 'Discovery Agent':
             json_input.pop(iterator)
         iterator += 1
     for asset in json_input:
-        del asset['description']
-        del asset['impact']
-        del asset['usage_type']
-        del asset['asset_tag']
-        del asset['user_id']
-        del asset['location_id']
-        del asset['agent_id']
-        del asset['group_id']
-        del asset['assigned_on']
-        del asset['created_at']
-        del asset['updated_at']
-        del asset['end_of_life']
-        del asset['discovery_enabled']
-        del asset['author_type']
-        del asset['asset_type_id']
-        del asset['department_id']
+        for key in remove_keys_primary:
+            del asset[key]
+        for key in remove_keys_secondary:
+            del asset['type_fields'][key]
 
     return json_input
 
