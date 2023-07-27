@@ -6,6 +6,7 @@
 import os
 import json
 from dotenv import load_dotenv
+from json2html import * # pylint: disable=W0401,W0614
 import requests
 
 if not os.getenv("FS_API"):
@@ -17,6 +18,7 @@ def pull_assets():
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
     save_asset_json(response)
+    create_html(response)
 
 
 def save_asset_json(data):
@@ -24,8 +26,10 @@ def save_asset_json(data):
         json.dump(data, assets, indent=4)
 
 
-def create_html():
-    pass
+def create_html(json_input):
+    html_string = json2html.convert(json_input)
+    with open('docs/index.html','w',encoding='UTF-8') as html:
+        html.write(html_string)
 
 
 if __name__ == '__main__':
