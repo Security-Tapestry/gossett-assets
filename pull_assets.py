@@ -5,7 +5,6 @@
 
 import os
 import json
-import jpype
 from dotenv import load_dotenv
 import requests
 
@@ -18,7 +17,6 @@ def pull_assets():
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
     save_asset_json(response)
-    create_html('docs/assets.json')
 
 
 def save_asset_json(data):
@@ -26,12 +24,8 @@ def save_asset_json(data):
         json.dump(data, assets, indent=4)
 
 
-def create_html(json):
-    jpype.startJVM()
-    from asposecells.api import Workbook
-    workbook = Workbook(json)
-    workbook.save('docs/index.html')
-    jpype.shutdownJVM()
+def create_html():
+    pass
 
 
 if __name__ == '__main__':
