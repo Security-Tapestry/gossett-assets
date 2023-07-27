@@ -18,8 +18,8 @@ def pull_assets():
         '?filter="department_id:21000185204"&include=type_fields' )
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response = request.json()['assets']
-    save_asset_json(response)
-    create_html(response)
+    save_asset_json(clean_json(response))
+    create_html(json.load(open('docs/assets.json', 'r', encoding='UTF-8')))
 
 
 def save_asset_json(data):
@@ -37,6 +37,27 @@ def create_html(json_input):
             + html_string
             + '\n</body>\n</html>'
         )
+
+
+def clean_json(json_input):
+    for asset in json_input:
+        del asset['description']
+        del asset['impact']
+        del asset['usage_type']
+        del asset['asset_tag']
+        del asset['user_id']
+        del asset['location_id']
+        del asset['agent_id']
+        del asset['group_id']
+        del asset['assigned_on']
+        del asset['created_at']
+        del asset['updated_at']
+        del asset['end_of_life']
+        del asset['discovery_enabled']
+        del asset['author_type']
+        del asset['asset_type_id']
+        del asset['department_id']
+    return json_input
 
 
 if __name__ == '__main__':
