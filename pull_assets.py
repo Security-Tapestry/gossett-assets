@@ -84,11 +84,11 @@ def create_html(json_input):
             + '<script src="assets/key.js"></script>\n'
             + f'<a id="assetCount">Assets: {len(json_input)}</a><br><br>\n'
             + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Hostname...">\n' # pylint: disable=C0301
-            + '&emsp;'
+            + '&ensp;'
             + '<input type="text" id="serialSearch" onkeyup="filterSerial()" placeholder="Serial/Asset Tag...">\n' # pylint: disable=C0301
-            + '&emsp;'
+            + '&ensp;'
             + '<input type="text" id="macSearch" onkeyup="filterMAC()" placeholder="MAC Address...">\n' # pylint: disable=C0301
-            + '&emsp;'
+            + '&ensp;'
             + '<input type="text" id="ipSearch" onkeyup="filterIP()" placeholder="IP Address...">\n' # pylint: disable=C0301
             + html_string
             + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
