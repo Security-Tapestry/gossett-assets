@@ -1,6 +1,6 @@
 #hostnameSearch {
     background-image: url('searchicon.png');
-    background-position: 240px 5px; /* Position the search icon */
+    background-position: 90% 50%; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 20%; 
     font-size: 24px; /* Increase font-size */
@@ -10,7 +10,7 @@
 }
 #serialSearch {
     background-image: url('searchicon.png');
-    background-position: 240px 5px; /* Position the search icon */
+    background-position: 90% 50%; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 20%; 
     font-size: 24px; /* Increase font-size */
@@ -20,7 +20,7 @@
 }
 #macSearch {
     background-image: url('searchicon.png');
-    background-position: 240px 5px; /* Position the search icon */
+    background-position: 90% 50%; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 20%; 
     font-size: 24px; /* Increase font-size */
@@ -30,7 +30,7 @@
 }
 #ipSearch {
     background-image: url('searchicon.png');
-    background-position: 240px 5px; /* Position the search icon */
+    background-position: 90% 50%; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
     width: 20%; 
     font-size: 24px; /* Increase font-size */

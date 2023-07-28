@@ -81,7 +81,7 @@ def create_html(json_input):
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
             + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
-            + f'<a id="assetCount">Assets: {len(json_input)}</a><br>\n'
+            + f'<a id="assetCount">Assets: {len(json_input)}</a><br><br>\n'
             + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Search hostnames...">\n' # pylint: disable=C0301
             + '&emsp;'
             + '<input type="text" id="serialSearch" onkeyup="filterSerial()" placeholder="Search Serial or Asset Tag...">\n' # pylint: disable=C0301
