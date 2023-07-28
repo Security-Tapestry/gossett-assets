@@ -14,6 +14,8 @@ if not os.getenv("FS_API"):
 
 DEPARTMENT_ID = 21000376117
 
+COMPANY_NAME = "Gossett Motors"
+
 REQUEST_URL = f'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"' # pylint: disable=C0301
 
 
@@ -77,7 +79,7 @@ def create_html(json_input):
         html.write(
             '<!DOCTYPE html>\n'
             + '<html>\n<head>\n'
-            + '<title>Gossett Motors Assets</title>\n'
+            + f'<title>{COMPANY_NAME} Assets</title>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
             + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
