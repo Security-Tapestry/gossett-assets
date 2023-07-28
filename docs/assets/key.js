@@ -1,4 +1,4 @@
-var key = "gossett";
+var key = "G0$$@m3r!";
 (function keyHole() {
     var lock = prompt("Wings?");
     while (lock !== key) {
