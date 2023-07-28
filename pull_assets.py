@@ -27,7 +27,8 @@ def pull_assets():
     page_4 = pull_assets_page_4()
     combined_json = page_1 + page_2 + page_3 + page_4
     save_asset_json(clean_json(combined_json))
-    create_html(json.load(open('docs/assets.json', 'r', encoding='UTF-8')))
+    with open('docs/assets.json', 'r', encoding='UTF-8') as file:
+        create_html(json.load(file))
 
 
 def pull_assets_page_1():
