@@ -1,10 +1,10 @@
 .dataframe {
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
    border-collapse: collapse;
    width: 100%;
 }
 .dataframe td, .dataframe th {
-    border: 1px solid #ddd;
+   border: 1px solid #ddd;
    padding: 8px;
 }
 .dataframe tr:nth-child(even){
@@ -22,7 +22,7 @@
    cursor: pointer;
 }
 .table-container {
-    width: 100%;
+   width: 100%;
    overflow: scroll;
    background-color: #e5e5f7;
    opacity: 0.4;
