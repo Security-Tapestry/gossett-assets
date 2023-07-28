@@ -1,7 +1,7 @@
 .dataframe {
    font-family: Arial, Helvetica, sans-serif;
    border-collapse: collapse;
-   width: 100%;
+   width: 95%;
 }
 .dataframe td, .dataframe th {
    border: 1px solid #a9a9a9;
