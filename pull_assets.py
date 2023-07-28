@@ -16,8 +16,10 @@ DEPARTMENT_ID = 21000376117
 
 COMPANY_NAME = "Gossett Motors"
 
-REQUEST_URL = 'https://securitytapestry.freshservice.com/api/v2/assets' + (
-    f'?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"')
+REQUEST_URL = (
+    'https://securitytapestry.freshservice.com/api/v2/assets') + (
+    f'?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"'
+)
 
 
 def pull_assets():
@@ -84,7 +86,8 @@ def create_html(json_input):
             + f'<title>{COMPANY_NAME} Assets</title>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
-            + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
+            + '<script src="assets/sorttable.js"></script>\n'
+            + '</head>\n<body>\n'
             + '<script src="assets/key.js"></script>\n'
             + f'<a id="assetCount">Assets: {len(json_input)}</a><br><br>\n'
             + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Hostname...">\n' # pylint: disable=C0301
@@ -111,13 +114,10 @@ def clean_json(json_input):
         'department_id','display_id','id'
     ]
     remove_keys_secondary = [
-        'vendor_21001393125',
-        'cost_21001393125',
-        'warranty_21001393125',
-        'acquisition_date_21001393125',
+        'vendor_21001393125','cost_21001393125',
+        'warranty_21001393125','acquisition_date_21001393125',
         'warranty_expiry_date_21001393125',
-        'depreciation_id','salvage',
-        'product_21001393125'
+        'depreciation_id','salvage','product_21001393125'
     ]
     rename_keys = {
         'domain_21001393125': 'Domain',
