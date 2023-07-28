@@ -1,10 +1,40 @@
-#myInput {
+#hostnameSearch {
     background-image: url('searchicon.png');
-    background-position: 10px 12px; /* Position the search icon */
+    background-position: 240px 5px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 25%; 
-    font-size: 16px; /* Increase font-size */
+    width: 20%; 
+    font-size: 24px; /* Increase font-size */
     /* padding: 12px 20px 12px 40px; Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
-  }
+}
+#serialSearch {
+    background-image: url('searchicon.png');
+    background-position: 240px 5px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 20%; 
+    font-size: 24px; /* Increase font-size */
+    /* padding: 12px 20px 12px 40px; Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+#macSearch {
+    background-image: url('searchicon.png');
+    background-position: 240px 5px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 20%; 
+    font-size: 24px; /* Increase font-size */
+    /* padding: 12px 20px 12px 40px; Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+#ipSearch {
+    background-image: url('searchicon.png');
+    background-position: 240px 5px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 20%; 
+    font-size: 24px; /* Increase font-size */
+    /* padding: 12px 20px 12px 40px; Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
