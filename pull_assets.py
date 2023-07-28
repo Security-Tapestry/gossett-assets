@@ -83,13 +83,13 @@ def create_html(json_input):
             + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
             + '<script src="assets/key.js"></script>\n'
             + f'<a id="assetCount">Assets: {len(json_input)}</a><br><br>\n'
-            + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Search hostnames...">\n' # pylint: disable=C0301
+            + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Hostname...">\n' # pylint: disable=C0301
             + '&emsp;'
-            + '<input type="text" id="serialSearch" onkeyup="filterSerial()" placeholder="Search Serial or Asset Tag...">\n' # pylint: disable=C0301
+            + '<input type="text" id="serialSearch" onkeyup="filterSerial()" placeholder="Serial/Asset Tag...">\n' # pylint: disable=C0301
             + '&emsp;'
-            + '<input type="text" id="macSearch" onkeyup="filterMAC()" placeholder="Search MAC Address...">\n' # pylint: disable=C0301
+            + '<input type="text" id="macSearch" onkeyup="filterMAC()" placeholder="MAC Address...">\n' # pylint: disable=C0301
             + '&emsp;'
-            + '<input type="text" id="ipSearch" onkeyup="filterIP()" placeholder="Search IP Address...">\n' # pylint: disable=C0301
+            + '<input type="text" id="ipSearch" onkeyup="filterIP()" placeholder="IP Address...">\n' # pylint: disable=C0301
             + html_string
             + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
             + '</html>')
