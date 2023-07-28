@@ -14,7 +14,7 @@ if not os.getenv("FS_API"):
 
 DEPARTMENT_ID = 21000376117
 
-REQUEST_URL = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"' # pylint: disable=C0301
+REQUEST_URL = f'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"' # pylint: disable=C0301
 
 
 def pull_assets():
@@ -97,7 +97,7 @@ def create_html(json_input):
 
 def clean_json(json_input):
     """Remove unnecessary keys from JSON"""
-    iterator_1 = iterator_2 = 0
+    iterator = 0
     remove_keys_primary = [
         'description','impact','usage_type',
         'asset_tag','user_id','location_id',
@@ -135,12 +135,8 @@ def clean_json(json_input):
     }
     for asset in json_input:
         if asset['author_type'] == 'User':
-            json_input.pop(iterator_1)
-        iterator_1 += 1
-    for asset in json_input:
-        if asset['department_id'] != DEPARTMENT_ID:
-            json_input.pop(iterator_2)
-        iterator_2 += 1
+            json_input.pop(iterator)
+        iterator += 1
     for asset in json_input:
         for key in remove_keys_primary:
             asset.pop(key)
