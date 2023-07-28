@@ -6,6 +6,7 @@
 .dataframe td, .dataframe th {
    border: 1px solid #ddd;
    padding: 8px;
+   background-color: #e5e5f7;
 }
 .dataframe tr:nth-child(even){
    background-color: #f2f2f2;
