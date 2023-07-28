@@ -99,7 +99,7 @@ def create_html(json_input):
 
 
 def clean_json(json_input):
-    """Remove unnecessary keys from JSON"""
+    """Remove unnecessary items from JSON and renaming keys"""
     iterator = 0
     remove_keys_primary = [
         'description','impact','usage_type',
@@ -108,7 +108,7 @@ def clean_json(json_input):
         'created_at','updated_at','end_of_life',
         'discovery_enabled','author_type','asset_type_id',
         'department_id','display_id','id'
-        ]
+    ]
     remove_keys_secondary = [
         'vendor_21001393125',
         'cost_21001393125',
