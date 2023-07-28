@@ -77,7 +77,7 @@ def create_html(json_input):
         html.write(
             '<!DOCTYPE html>\n'
             + '<html>\n<head>\n'
-            + '<title>Gossett Motors Assets<title>\n'
+            + '<title>Gossett Motors Assets</title>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
             + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
