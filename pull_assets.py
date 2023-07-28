@@ -82,7 +82,7 @@ def create_html(json_input):
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
             + '<script src="assets/sorttable.js"></script>\n</head>\n<body>\n' # pylint: disable=C0301
             + f'<a id="assetCount">Assets: {len(json_input)}</a><br>\n'
-            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search hostnames..">\n' # pylint: disable=C0301
+            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search hostnames...">\n' # pylint: disable=C0301
             + html_string
             + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
             + '</html>')
