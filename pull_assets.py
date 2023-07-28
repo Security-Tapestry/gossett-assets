@@ -16,7 +16,8 @@ DEPARTMENT_ID = 21000376117
 
 COMPANY_NAME = "Gossett Motors"
 
-REQUEST_URL = f'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"' # pylint: disable=C0301
+REQUEST_URL = 'https://securitytapestry.freshservice.com/api/v2/assets' + (
+    f'?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"')
 
 
 def pull_assets():
