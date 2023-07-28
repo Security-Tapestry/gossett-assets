@@ -153,6 +153,8 @@ def clean_json(json_input):
                 asset['type_fields'][value] = asset['type_fields'].pop(key)
             except KeyError:
                 continue
+    for asset in json_input:
+        asset['attributes'] = asset.pop('type_fields')
 
     return json_input
 

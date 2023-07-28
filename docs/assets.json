@@ -1,7 +1,7 @@
 [
     {
         "name": "D55LZJZV211191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5LZJZV2",
@@ -22,7 +22,7 @@
     },
     {
         "name": "A55164920003202",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA002305051649200",
@@ -43,7 +43,7 @@
     },
     {
         "name": "D5D0YN51302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "D0YN513",
@@ -64,7 +64,7 @@
     },
     {
         "name": "D55YFPH6301211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5YFPH63",
@@ -85,7 +85,7 @@
     },
     {
         "name": "D5GJZGZV211191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "GJZGZV2",
@@ -106,7 +106,7 @@
     },
     {
         "name": "D5FXKXCV204223",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FXKXCV2",
@@ -127,7 +127,7 @@
     },
     {
         "name": "A53E93920004213",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA00331603E939200",
@@ -148,7 +148,7 @@
     },
     {
         "name": "A554D9920010192",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA003317054D99200",
@@ -169,7 +169,7 @@
     },
     {
         "name": "A511F9300006231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVMTAA004709011F93000",
@@ -190,7 +190,7 @@
     },
     {
         "name": "D55XRPH6301211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5XRPH63",
@@ -211,7 +211,7 @@
     },
     {
         "name": "D514W1DX307231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "14W1DX3",
@@ -232,7 +232,7 @@
     },
     {
         "name": "D5FHDRZV211191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FHDRZV2",
@@ -253,7 +253,7 @@
     },
     {
         "name": "D54CCKN2302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "4CCKN23",
@@ -274,7 +274,7 @@
     },
     {
         "name": "D55ZGQH6311201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5ZGQH63",
@@ -295,7 +295,7 @@
     },
     {
         "name": "A53129960004202",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVLUAA002510031299600",
@@ -316,7 +316,7 @@
     },
     {
         "name": "D55YYRH6301211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5YYRH63",
@@ -337,7 +337,7 @@
     },
     {
         "name": "D55YLPH6301211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5YLPH63",
@@ -358,7 +358,7 @@
     },
     {
         "name": "A574A9920010193",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA003317074A99200",
@@ -379,7 +379,7 @@
     },
     {
         "name": "D5GR29N2306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "GR29N23",
@@ -400,7 +400,7 @@
     },
     {
         "name": "A52FE4960010193",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVMWAA00562702FE49600",
@@ -421,7 +421,7 @@
     },
     {
         "name": "D5GNW8N2302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "GNW8N23",
@@ -442,7 +442,7 @@
     },
     {
         "name": "D5FX5WCV201191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FX5WCV2",
@@ -463,7 +463,7 @@
     },
     {
         "name": "D577BLCS205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "77BLCS2",
@@ -484,7 +484,7 @@
     },
     {
         "name": "D51NFYTQ205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "1NFYTQ2",
@@ -505,7 +505,7 @@
     },
     {
         "name": "A57412920006213",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA003317074129200",
@@ -526,7 +526,7 @@
     },
     {
         "name": "AUDIGETAC12",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "RK9XXS1943",
@@ -547,7 +547,7 @@
     },
     {
         "name": "D5G3W1DX305231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "G3W1DX3",
@@ -568,7 +568,7 @@
     },
     {
         "name": "D5FX8VCV204222",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FX8VCV2",
@@ -589,7 +589,7 @@
     },
     {
         "name": "D55Z5PH6301211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5Z5PH63",
@@ -610,7 +610,7 @@
     },
     {
         "name": "D51LVVTQ206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "JXMSQP2",
@@ -631,7 +631,7 @@
     },
     {
         "name": "A552CE960011192",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVMWAA005616052CE9600",
@@ -652,7 +652,7 @@
     },
     {
         "name": "D55YGQH6305222",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5YGQH63",
@@ -673,7 +673,7 @@
     },
     {
         "name": "D5D1DH51302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "D1DH513",
@@ -694,7 +694,7 @@
     },
     {
         "name": "VWGETAC69",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "RN7XXS0619",
@@ -715,7 +715,7 @@
     },
     {
         "name": "D5F24XCV207231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FT4XCV2",
@@ -736,7 +736,7 @@
     },
     {
         "name": "AUDIGETAC16",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "RP4XXS0273",
@@ -757,7 +757,7 @@
     },
     {
         "name": "D57D1NCS205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "7D1NCS2",
@@ -778,7 +778,7 @@
     },
     {
         "name": "D575PN2W203231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "75PN2W2",
@@ -799,7 +799,7 @@
     },
     {
         "name": "D5HG6FDV206232",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "HG6FDV2",
@@ -820,7 +820,7 @@
     },
     {
         "name": "A53128960004202",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVLUAA002510031289600",
@@ -841,7 +841,7 @@
     },
     {
         "name": "D5G9CXZV204232",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "G9CXZV2",
@@ -862,7 +862,7 @@
     },
     {
         "name": "AUDIPANASONICS2",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "4CTCA70604",
@@ -883,7 +883,7 @@
     },
     {
         "name": "D541S0DX305231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "41S0DX3",
@@ -904,7 +904,7 @@
     },
     {
         "name": "D573W1DX306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "73W1DX3",
@@ -925,7 +925,7 @@
     },
     {
         "name": "D5GRVBN2302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "GRVBN23",
@@ -946,7 +946,7 @@
     },
     {
         "name": "D5HHVH3Y205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "HHVH3Y2",
@@ -967,7 +967,7 @@
     },
     {
         "name": "D51K1XTQ205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "1K1XTQ2",
@@ -988,7 +988,7 @@
     },
     {
         "name": "D5FTXTCV202191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FTXTCV2",
@@ -1009,7 +1009,7 @@
     },
     {
         "name": "D5CCW1DX307231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "CCW1DX3",
@@ -1030,7 +1030,7 @@
     },
     {
         "name": "D5JDCNMR202221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "JDCNMR2",
@@ -1051,7 +1051,7 @@
     },
     {
         "name": "A53040960006212",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVMWAA005627030409600",
@@ -1072,7 +1072,7 @@
     },
     {
         "name": "AUDIGETAC10",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "RK9XXS1983",
@@ -1093,7 +1093,7 @@
     },
     {
         "name": "D577TT2W202191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "77TT2W2",
@@ -1114,7 +1114,7 @@
     },
     {
         "name": "L5PF2JAHZN08211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "PF2JAHZN",
@@ -1135,7 +1135,7 @@
     },
     {
         "name": "D5GNBFT1305232",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "GNBFT13",
@@ -1156,7 +1156,7 @@
     },
     {
         "name": "D586PGRP205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "86PGRP2",
@@ -1177,7 +1177,7 @@
     },
     {
         "name": "D5DQ6L0M205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DQ6L0M2",
@@ -1198,7 +1198,7 @@
     },
     {
         "name": "D5750LCS205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "750LCS2",
@@ -1219,7 +1219,7 @@
     },
     {
         "name": "D54DW1DX306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "4DW1DX3",
@@ -1240,7 +1240,7 @@
     },
     {
         "name": "D53VMPFX206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "3VMPFX2",
@@ -1261,7 +1261,7 @@
     },
     {
         "name": "D5D4W1DX306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "D4W1DX3",
@@ -1282,7 +1282,7 @@
     },
     {
         "name": "D5FHQRZV207231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FHQRZV2",
@@ -1303,7 +1303,7 @@
     },
     {
         "name": "A55444920010192",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVFFAA003317054449200",
@@ -1324,7 +1324,7 @@
     },
     {
         "name": "D51LQ44Y206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "1LQ44Y2",
@@ -1345,7 +1345,7 @@
     },
     {
         "name": "A5000E010003201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "UDP01AA6978150000E0100",
@@ -1366,7 +1366,7 @@
     },
     {
         "name": "D5F3W1DX306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "F3W1DX3",
@@ -1387,7 +1387,7 @@
     },
     {
         "name": "D5B4W1DX305231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "B4W1DX3",
@@ -1408,7 +1408,7 @@
     },
     {
         "name": "L5MP247ZCX08221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "MP247ZCX",
@@ -1429,7 +1429,7 @@
     },
     {
         "name": "CJDSHOP6",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "2CE33220K1",
@@ -1450,7 +1450,7 @@
     },
     {
         "name": "D51LJY3Y211191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "1LJY3Y2",
@@ -1471,7 +1471,7 @@
     },
     {
         "name": "D5FX7YCV202191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FX7YCV2",
@@ -1492,7 +1492,7 @@
     },
     {
         "name": "D5H118N2302201",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "H118N23",
@@ -1513,7 +1513,7 @@
     },
     {
         "name": "D55Z8SH6310211",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5Z8SH63",
@@ -1534,7 +1534,7 @@
     },
     {
         "name": "D515NY3Y206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "15NY3Y2",
@@ -1555,7 +1555,7 @@
     },
     {
         "name": "CJDSHOP3",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "2CE33220N7",
@@ -1576,7 +1576,7 @@
     },
     {
         "name": "D51K9XTQ205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "1K9XTQ2",
@@ -1597,7 +1597,7 @@
     },
     {
         "name": "D5HBZFDV203232",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "HBZFDV2",
@@ -1618,7 +1618,7 @@
     },
     {
         "name": "D5FHFQZV206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FHFQZV2",
@@ -1639,7 +1639,7 @@
     },
     {
         "name": "CJDSHOP7",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "2CE33220P0",
@@ -1660,7 +1660,7 @@
     },
     {
         "name": "L5PF0M96W06212",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "PF0M96W",
@@ -1681,7 +1681,7 @@
     },
     {
         "name": "AUDIPANASONIC15",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "4DTCA80052",
@@ -1702,7 +1702,7 @@
     },
     {
         "name": "D5D3W1DX307231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "D3W1DX3",
@@ -1723,7 +1723,7 @@
     },
     {
         "name": "D511DP1S205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "11DP1S2",
@@ -1744,7 +1744,7 @@
     },
     {
         "name": "L5PF1T16QY03221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "PF1T16QY",
@@ -1765,7 +1765,7 @@
     },
     {
         "name": "D587PB5L206231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "87PB5L2",
@@ -1786,7 +1786,7 @@
     },
     {
         "name": "A53036960007202",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "DTVLUAA002510030369600",
@@ -1807,7 +1807,7 @@
     },
     {
         "name": "D55M0KZV211191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5M0KZV2",
@@ -1828,7 +1828,7 @@
     },
     {
         "name": "D57DKPQP205221",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "7DKPQP2",
@@ -1849,7 +1849,7 @@
     },
     {
         "name": "D5BFW1DX306231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "BFW1DX3",
@@ -1870,7 +1870,7 @@
     },
     {
         "name": "D56FW1DX307231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "6FW1DX3",
@@ -1891,7 +1891,7 @@
     },
     {
         "name": "D5FB1XCV202192",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FB1XCV2",
@@ -1912,7 +1912,7 @@
     },
     {
         "name": "D5FX5VCV202191",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "FX5VCV2",
@@ -1933,7 +1933,7 @@
     },
     {
         "name": "D58TKDXQ206233",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "8TKDXQ2",
@@ -1954,7 +1954,7 @@
     },
     {
         "name": "CJDSHOP8",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5CG6132TKZ",
@@ -1975,7 +1975,7 @@
     },
     {
         "name": "D55QP58V304231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "5QP58V3",
@@ -1996,7 +1996,7 @@
     },
     {
         "name": "D5C0S0DX305231",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "C0S0DX3",
@@ -2017,7 +2017,7 @@
     },
     {
         "name": "VWPPANASONIC44",
-        "type_fields": {
+        "attributes": {
             "Domain": "gossett.local",
             "State": "In Use",
             "Serial_Number": "4DTCA80497",
