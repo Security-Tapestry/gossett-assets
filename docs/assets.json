@@ -227,7 +227,7 @@
             "Hostname": "A511F9300006231",
             "IP_Address": "10.2.8.236",
             "Last_Logged_in_User": "Canderson",
-            "Last_Check_In": "2023-08-03T15:38:00Z"
+            "Last_Check_In": "2023-08-04T13:38:00Z"
         }
     },
     {
@@ -268,8 +268,8 @@
             "UUID": "4C4C4544-0034-5710-8031-B1C04F445833",
             "Hostname": "D514W1DX307231",
             "IP_Address": "10.5.1.234",
-            "Last_Logged_in_User": "MSullivan",
-            "Last_Check_In": "2023-08-03T12:22:00Z"
+            "Last_Logged_in_User": "ccox",
+            "Last_Check_In": "2023-08-04T23:02:00Z"
         }
     },
     {
@@ -458,7 +458,7 @@
             "Hostname": "A52FE4960010193",
             "IP_Address": "10.6.1.157",
             "Last_Logged_in_User": "Cjennings",
-            "Last_Check_In": "2023-08-02T12:56:00Z"
+            "Last_Check_In": "2023-08-04T16:14:00Z"
         }
     },
     {
@@ -668,7 +668,7 @@
             "Hostname": "D51LVVTQ206231",
             "IP_Address": "10.2.2.223",
             "Last_Logged_in_User": "jflynn",
-            "Last_Check_In": "2023-08-03T22:04:00Z"
+            "Last_Check_In": "2023-08-04T13:05:00Z"
         }
     },
     {
@@ -710,7 +710,7 @@
             "Hostname": "D55YGQH6305222",
             "IP_Address": "10.2.2.216",
             "Last_Logged_in_User": "saskew",
-            "Last_Check_In": "2023-08-03T14:37:00Z"
+            "Last_Check_In": "2023-08-04T14:31:00Z"
         }
     },
     {
@@ -751,8 +751,8 @@
             "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
             "Hostname": "VWGETAC69",
             "IP_Address": "10.2.208.241,192.168.13.211",
-            "Last_Logged_in_User": "alaselva",
-            "Last_Check_In": "2023-08-03T22:01:00Z"
+            "Last_Logged_in_User": "jmcbride",
+            "Last_Check_In": "2023-08-04T20:19:00Z"
         }
     },
     {
@@ -1045,8 +1045,8 @@
             "UUID": "4C4C4544-0054-5810-8054-C6C04F435632",
             "Hostname": "D5FTXTCV202191",
             "IP_Address": "10.2.2.182",
-            "Last_Logged_in_User": "ttunstall",
-            "Last_Check_In": "2023-08-04T00:21:00Z"
+            "Last_Logged_in_User": "fshanklin",
+            "Last_Check_In": "2023-08-04T20:15:00Z"
         }
     },
     {
@@ -1298,7 +1298,7 @@
             "Hostname": "D53VMPFX206231",
             "IP_Address": "10.2.2.103",
             "Last_Logged_in_User": "tharris",
-            "Last_Check_In": "2023-08-03T00:04:00Z"
+            "Last_Check_In": "2023-08-04T14:34:00Z"
         }
     },
     {
@@ -1319,7 +1319,7 @@
             "Hostname": "D5D4W1DX306231",
             "IP_Address": "10.2.2.113",
             "Last_Logged_in_User": "jathomas",
-            "Last_Check_In": "2023-08-03T14:12:00Z"
+            "Last_Check_In": "2023-08-04T13:06:00Z"
         }
     },
     {
@@ -1529,7 +1529,7 @@
             "Hostname": "D5FX7YCV202191",
             "IP_Address": "10.2.2.176",
             "Last_Logged_in_User": "cawilliams",
-            "Last_Check_In": "2023-07-30T15:03:00Z"
+            "Last_Check_In": "2023-08-04T14:52:00Z"
         }
     },
     {
@@ -1571,7 +1571,7 @@
             "Hostname": "D55Z8SH6310211",
             "IP_Address": "10.2.2.199",
             "Last_Logged_in_User": "mahlbrandt",
-            "Last_Check_In": "2023-08-03T21:03:00Z"
+            "Last_Check_In": "2023-08-04T23:03:00Z"
         }
     },
     {
@@ -1655,7 +1655,7 @@
             "Hostname": "D5HBZFDV203232",
             "IP_Address": "10.2.2.248",
             "Last_Logged_in_User": "cpike",
-            "Last_Check_In": "2023-08-03T23:03:00Z"
+            "Last_Check_In": "2023-08-04T22:38:00Z"
         }
     },
     {
@@ -1738,8 +1738,8 @@
             "UUID": "33ADDADD-716B-5939-B7FC-0717DCE433B8",
             "Hostname": "AUDIPANASONIC15",
             "IP_Address": "10.2.206.205",
-            "Last_Logged_in_User": "hberry",
-            "Last_Check_In": "2023-08-03T18:31:00Z"
+            "Last_Logged_in_User": "kpeckneff",
+            "Last_Check_In": "2023-08-04T22:37:00Z"
         }
     },
     {
@@ -1801,8 +1801,8 @@
             "UUID": "D081554C-3230-11B2-A85C-DD0D5E05C5DB",
             "Hostname": "L5PF1T16QY03221",
             "IP_Address": "10.2.2.162",
-            "Last_Logged_in_User": "mparkes",
-            "Last_Check_In": "2023-07-29T13:22:00Z"
+            "Last_Logged_in_User": null,
+            "Last_Check_In": "2023-08-04T14:28:00Z"
         }
     },
     {
@@ -2011,8 +2011,8 @@
             "UUID": "B06C23FF-F628-11E5-A330-62C7AC02C0FF",
             "Hostname": "CJDSHOP8",
             "IP_Address": "10.2.2.210",
-            "Last_Logged_in_User": "mboydston",
-            "Last_Check_In": "2023-08-03T00:01:00Z"
+            "Last_Logged_in_User": "jward",
+            "Last_Check_In": "2023-08-04T14:25:00Z"
         }
     },
     {
@@ -2032,8 +2032,8 @@
             "UUID": "4C4C4544-0051-5010-8035-B5C04F385633",
             "Hostname": "D55QP58V304231",
             "IP_Address": "10.2.2.233",
-            "Last_Logged_in_User": "kfulinara",
-            "Last_Check_In": "2023-08-03T00:18:00Z"
+            "Last_Logged_in_User": "Kfulinara",
+            "Last_Check_In": "2023-08-04T12:22:00Z"
         }
     },
     {
@@ -2053,8 +2053,8 @@
             "UUID": "4C4C4544-0030-5310-8030-C3C04F445833",
             "Hostname": "D5C0S0DX305231",
             "IP_Address": "10.2.2.232",
-            "Last_Logged_in_User": "dmcree",
-            "Last_Check_In": "2023-08-03T13:05:00Z"
+            "Last_Logged_in_User": "wmabe",
+            "Last_Check_In": "2023-08-04T12:55:00Z"
         }
     },
     {
