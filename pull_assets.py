@@ -90,6 +90,7 @@ def pull_assets_page_5():
     url = REQUEST_URL + '&page=5'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+    
     return response
 
 
@@ -98,6 +99,7 @@ def pull_assets_page_6():
     url = REQUEST_URL + '&page=6'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -106,6 +108,7 @@ def pull_assets_page_7():
     url = REQUEST_URL + '&page=7'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -114,6 +117,7 @@ def pull_assets_page_8():
     url = REQUEST_URL + '&page=8'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -122,6 +126,7 @@ def pull_assets_page_9():
     url = REQUEST_URL + '&page=9'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -130,6 +135,7 @@ def pull_assets_page_10():
     url = REQUEST_URL + '&page=10'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -138,6 +144,7 @@ def pull_assets_page_11():
     url = REQUEST_URL + '&page=11'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -146,6 +153,7 @@ def pull_assets_page_12():
     url = REQUEST_URL + '&page=12'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -154,6 +162,7 @@ def pull_assets_page_13():
     url = REQUEST_URL + '&page=13'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -162,6 +171,7 @@ def pull_assets_page_14():
     url = REQUEST_URL + '&page=14'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
