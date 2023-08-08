@@ -272,7 +272,18 @@ def clean_json(json_input):
         21000221575: 'LENOVO ThinkPad E14',
         21000221599: 'LENOVO ThinkPad E14 Gen 2',
         21000221602: 'LENOVO ThinkPad E580',
-        21000221595: 'LENOVO ThinkPad Edge E440'
+        21000221595: 'LENOVO ThinkPad Edge E440',
+        21000221568: 'LENOVO ThinkPad Edge E531',
+        21000221567: 'LENOVO ThinkPad L15 Gen 1',
+        21000224164: 'LENOVO ThinkPad T440p',
+        21000221593: 'Acer VZ4820G',
+        21000221577: 'Acer Veriton X4640G',
+        21000221574: 'Acer Veriton M2611G',
+        21000221566: 'Acer Veriton M2632G',
+        21000221589: 'Acer Veriton M4618G',
+        21000221587: 'Acer Veriton M4640G',
+        21000221573: 'Acer Veriton M4650G',
+        21000224160: 'Microsoft Hyper-V Virtual Machine'
     }
     for asset in json_input:
         if asset['author_type'] == 'User':
