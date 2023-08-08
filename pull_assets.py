@@ -23,7 +23,14 @@ def pull_assets():
     page_2 = pull_assets_page_2()
     page_3 = pull_assets_page_3()
     page_4 = pull_assets_page_4()
-    combined_json = page_1 + page_2 + page_3 + page_4
+    page_5 = pull_assets_page_5()
+    page_6 = pull_assets_page_6()
+    page_7 = pull_assets_page_7()
+    page_8 = pull_assets_page_8()
+    page_9 = pull_assets_page_9()
+    page_10 = pull_assets_page_10()
+    page_11 = pull_assets_page_11()
+    combined_json = page_1 + page_2 + page_3 + page_4 + page_5 + page_6 + page_7 + page_8 + page_9 + page_10 + page_11
     save_asset_json(clean_json(combined_json))
     create_html(json.load(open('docs/assets.json', 'r', encoding='UTF-8')))
 
@@ -55,6 +62,62 @@ def pull_assets_page_3():
 def pull_assets_page_4():
     """Pull Assets from FreshService API"""
     url = REQUEST_URL + '&page=4'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_5():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=5'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_6():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=6'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_7():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=7'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_8():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=8'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_9():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=9'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_10():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=10'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+    return response
+
+
+def pull_assets_page_11():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=11'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
     return response
