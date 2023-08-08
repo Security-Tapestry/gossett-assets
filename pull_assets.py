@@ -202,6 +202,8 @@ def create_html(json_input):
             + '<input type="text" id="macSearch" onkeyup="filterMAC()" placeholder="MAC Address...">\n' # pylint: disable=C0301
             + '&ensp;'
             + '<input type="text" id="ipSearch" onkeyup="filterIP()" placeholder="IP Address...">\n' # pylint: disable=C0301
+            + '&ensp;'
+            + '<input type="text" id="productSearch" onkeyup="filterProduct()" placeholder="Product...">\n' # pylint: disable=C0301
             + html_string
             + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
             + '</html>')

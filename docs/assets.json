@@ -4152,8 +4152,8 @@
             "UUID": "4C4C4544-0034-4E10-8047-B7C04F435332",
             "Hostname": "D574NGCS205221",
             "IP_Address": "10.5.1.181",
-            "Last_Logged_in_User": "ppowell",
-            "Last_Check_In": "2023-07-27T21:07:00Z",
+            "Last_Logged_in_User": "bgreen",
+            "Last_Check_In": "2023-08-08T19:18:00Z",
             "Product": "Dell OptiPlex 3050"
         }
     },
@@ -6991,7 +6991,7 @@
             "Hostname": "D54CCKN2302201",
             "IP_Address": "10.2.7.211",
             "Last_Logged_in_User": "cbrigance",
-            "Last_Check_In": "2023-08-07T19:21:00Z",
+            "Last_Check_In": "2023-08-08T19:21:00Z",
             "Product": "Dell Precision 3630 Tower"
         }
     },
