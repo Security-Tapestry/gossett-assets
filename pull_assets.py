@@ -90,7 +90,7 @@ def pull_assets_page_5():
     url = REQUEST_URL + '&page=5'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
-    
+
     return response
 
 
@@ -222,7 +222,7 @@ def clean_json(json_input):
         'vendor_21001393125','cost_21001393125',
         'warranty_21001393125','acquisition_date_21001393125',
         'warranty_expiry_date_21001393125',
-        'depreciation_id','salvage','product_21001393125'
+        'depreciation_id','salvage'
     ]
     rename_keys = {
         'domain_21001393125': 'Domain',
@@ -240,7 +240,37 @@ def clean_json(json_input):
         'hostname_21001393130': 'Hostname',
         'computer_ip_address_21001393130': 'IP_Address',
         'last_login_by_21001393130': 'Last_Logged_in_User',
-        'last_audit_date_21001393125': 'Last_Check_In'
+        'last_audit_date_21001393125': 'Last_Check_In',
+        'product_21001393125': 'Product',
+    }
+    product_and_vendors = {
+        21000221562: 'Panasonic CF-52JE2VWVW',
+        21000221594: 'Panasonic CF-54-1',
+        21000221596: 'Panasonic FZ55-1',
+        21000221565: 'HP EliteBook 840 G2',
+        21000221569: 'HP ProBook 4540s',
+        21000221588: 'Dell Latitude 3500',
+        21000221564: 'Dell OptiPlex 3000',
+        21000221590: 'Dell OptiPlex 3010',
+        21000221592: 'Dell OptiPlex 3040',
+        21000221549: 'Dell OptiPlex 3050',
+        21000221446: 'Dell OptiPlex 3060',
+        21000221571: 'Dell OptiPlex 3070',
+        21000221570: 'Dell OptiPlex 3080',
+        21000221550: 'Dell OptiPlex 5060',
+        21000221597: 'Dell OptiPlex 960',
+        21000221563: 'Dell OptiPlex SFF 7010',
+        21000221586: 'Dell Precision 3630 Tower',
+        21000221591: 'Dell Precision T3610',
+        21000221576: 'GETAC S410',
+        21000221600: 'GETAC S410G3',
+        21000221578: 'GETAC S410G4',
+        21000221601: 'LENOVO ThinkBook 15 G2 ARE',
+        21000221572: 'LENOVO ThinkBook 15 G2 ITL',
+        21000221575: 'LENOVO ThinkPad E14',
+        21000221599: 'LENOVO ThinkPad E14 Gen 2',
+        21000221602: 'LENOVO ThinkPad E580',
+        21000221595: 'LENOVO ThinkPad Edge E440'
     }
     for asset in json_input:
         if asset['author_type'] == 'User':
@@ -261,6 +291,10 @@ def clean_json(json_input):
                 continue
     for asset in json_input:
         asset['attributes'] = asset.pop('type_fields')
+        
+        for product_id, value in product_and_vendors.items():
+            if asset['attributes']['Product'] == product_id:
+                asset['attributes']['Product'] = value
 
     return json_input
 
