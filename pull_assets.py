@@ -14,7 +14,12 @@ if not os.getenv("FS_API"):
 
 DEPARTMENT_ID = 21000376117
 
-REQUEST_URL = 'https://securitytapestry.freshservice.com/api/v2/assets?include=type_fields&filter="department_id:21000376117"' # pylint: disable=C0301
+COMPANY_NAME = "Gossett Motors"
+
+REQUEST_URL = (
+    'https://securitytapestry.freshservice.com/api/v2/assets') + (
+    f'?include=type_fields&filter="department_id:{str(DEPARTMENT_ID)}"'
+)
 
 
 def pull_assets():
@@ -32,7 +37,8 @@ def pull_assets():
     page_11 = pull_assets_page_11()
     combined_json = page_1 + page_2 + page_3 + page_4 + page_5 + page_6 + page_7 + page_8 + page_9 + page_10 + page_11
     save_asset_json(clean_json(combined_json))
-    create_html(json.load(open('docs/assets.json', 'r', encoding='UTF-8')))
+    with open('docs/assets.json', 'r', encoding='UTF-8') as file:
+        create_html(json.load(file))
 
 
 def pull_assets_page_1():
@@ -40,6 +46,7 @@ def pull_assets_page_1():
     url = REQUEST_URL
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -48,6 +55,7 @@ def pull_assets_page_2():
     url = REQUEST_URL + '&page=2'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -56,6 +64,7 @@ def pull_assets_page_3():
     url = REQUEST_URL + '&page=3'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -64,6 +73,7 @@ def pull_assets_page_4():
     url = REQUEST_URL + '&page=4'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
+
     return response
 
 
@@ -136,19 +146,28 @@ def create_html(json_input):
         html.write(
             '<!DOCTYPE html>\n'
             + '<html>\n<head>\n'
+            + f'<title>{COMPANY_NAME} Assets</title>\n'
             + '<link rel="stylesheet" href="assets/dataframe.css">\n'
             + '<link rel="stylesheet" href="assets/filtertable.css">\n'
-            + '<script src="assets/sorttable.js"></script>\n</head>\n<body><div class="table-container">\n' # pylint: disable=C0301
-            + f'<h2>Assets: {len(json_input)}</h2>\n'
-            + '<input type="text" id="myInput" onkeyup="filterTable()" placeholder="Search hostnames..">\n' # pylint: disable=C0301
+            + '<script src="assets/sorttable.js"></script>\n'
+            + '</head>\n<body>\n'
+            + '<script src="assets/key.js"></script>\n'
+            + f'<a id="assetCount">Assets: {len(json_input)}</a><br><br>\n'
+            + '<input type="text" id="hostnameSearch" onkeyup="filterHostname()" placeholder="Hostname...">\n' # pylint: disable=C0301
+            + '&ensp;'
+            + '<input type="text" id="serialSearch" onkeyup="filterSerial()" placeholder="Serial/Asset Tag...">\n' # pylint: disable=C0301
+            + '&ensp;'
+            + '<input type="text" id="macSearch" onkeyup="filterMAC()" placeholder="MAC Address...">\n' # pylint: disable=C0301
+            + '&ensp;'
+            + '<input type="text" id="ipSearch" onkeyup="filterIP()" placeholder="IP Address...">\n' # pylint: disable=C0301
             + html_string
-            + '\n</div>\n</body>\n<script src="assets/filtertable.js"></script>\n'
+            + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
             + '</html>')
 
 
 def clean_json(json_input):
-    """Remove unnecessary keys from JSON"""
-    iterator_1 = iterator_2 = 0
+    """Remove unnecessary items from JSON and renaming keys"""
+    iterator = 0
     remove_keys_primary = [
         'description','impact','usage_type',
         'asset_tag','user_id','location_id',
@@ -156,15 +175,12 @@ def clean_json(json_input):
         'created_at','updated_at','end_of_life',
         'discovery_enabled','author_type','asset_type_id',
         'department_id','display_id','id'
-        ]
+    ]
     remove_keys_secondary = [
-        'vendor_21001393125',
-        'cost_21001393125',
-        'warranty_21001393125',
-        'acquisition_date_21001393125',
+        'vendor_21001393125','cost_21001393125',
+        'warranty_21001393125','acquisition_date_21001393125',
         'warranty_expiry_date_21001393125',
-        'depreciation_id','salvage',
-        'product_21001393125'
+        'depreciation_id','salvage','product_21001393125'
     ]
     rename_keys = {
         'domain_21001393125': 'Domain',
@@ -186,12 +202,8 @@ def clean_json(json_input):
     }
     for asset in json_input:
         if asset['author_type'] == 'User':
-            json_input.pop(iterator_1)
-        iterator_1 += 1
-    for asset in json_input:
-        if asset['department_id'] != DEPARTMENT_ID:
-            json_input.pop(iterator_2)
-        iterator_2 += 1
+            json_input.pop(iterator)
+        iterator += 1
     for asset in json_input:
         for key in remove_keys_primary:
             asset.pop(key)
@@ -205,6 +217,8 @@ def clean_json(json_input):
                 asset['type_fields'][value] = asset['type_fields'].pop(key)
             except KeyError:
                 continue
+    for asset in json_input:
+        asset['attributes'] = asset.pop('type_fields')
 
     return json_input
 
