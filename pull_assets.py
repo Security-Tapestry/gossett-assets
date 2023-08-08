@@ -28,7 +28,7 @@ def pull_assets():
         page_1, page_2, page_3, page_4,
         page_5, page_6, page_7, page_8,
         page_9, page_10, page_11, page_12,
-        page_13, page_14
+        page_13, page_14, page_15
     ) = (
         pull_assets_page_1(), pull_assets_page_2(),
         pull_assets_page_3(), pull_assets_page_4(),
@@ -37,12 +37,13 @@ def pull_assets():
         pull_assets_page_9(), pull_assets_page_10(),
         pull_assets_page_11(), pull_assets_page_12(),
         pull_assets_page_13(), pull_assets_page_14(),
+        pull_assets_page_15()
     )
     combined_json = (
         page_1 + page_2 + page_3 + page_4 ) + (
         page_5 + page_6 + page_7 + page_8 ) + (
         page_9 + page_10 + page_11 + page_12 ) + (
-        page_13 + page_14
+        page_13 + page_14 + page_15
     )
     save_asset_json(clean_json(combined_json))
     with open('docs/assets.json', 'r', encoding='UTF-8') as file:
@@ -169,6 +170,15 @@ def pull_assets_page_13():
 def pull_assets_page_14():
     """Pull Assets from FreshService API"""
     url = REQUEST_URL + '&page=14'
+    request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
+    response= request.json()['assets']
+
+    return response
+
+
+def pull_assets_page_15():
+    """Pull Assets from FreshService API"""
+    url = REQUEST_URL + '&page=15'
     request = requests.get(url, auth=(os.getenv('FS_API'), 'X'), timeout=30)
     response= request.json()['assets']
 
