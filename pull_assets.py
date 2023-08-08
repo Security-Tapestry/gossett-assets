@@ -38,25 +38,12 @@ def pull_assets():
         pull_assets_page_11(), pull_assets_page_12(),
         pull_assets_page_13(), pull_assets_page_14(),
     )
-    # page_1 = pull_assets_page_1()
-    # page_2 = pull_assets_page_2()
-    # page_3 = pull_assets_page_3()
-    # page_4 = pull_assets_page_4()
-    # page_5 = pull_assets_page_5()
-    # page_6 = pull_assets_page_6()
-    # page_7 = pull_assets_page_7()
-    # page_8 = pull_assets_page_8()
-    # page_9 = pull_assets_page_9()
-    # page_10 = pull_assets_page_10()
-    # page_11 = pull_assets_page_11()
-    # page_12 = pull_assets_page_12()
-    # page_13 = pull_assets_page_13()
-    # page_14 = pull_assets_page_14()
     combined_json = (
         page_1 + page_2 + page_3 + page_4 ) + (
         page_5 + page_6 + page_7 + page_8 ) + (
         page_9 + page_10 + page_11 + page_12 ) + (
-        page_13 + page_14 )
+        page_13 + page_14
+    )
     save_asset_json(clean_json(combined_json))
     with open('docs/assets.json', 'r', encoding='UTF-8') as file:
         create_html(json.load(file))
