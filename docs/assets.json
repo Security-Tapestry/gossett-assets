@@ -3523,8 +3523,8 @@
             "UUID": "4C4C4544-0043-4210-804B-B1C04F584D32",
             "Hostname": "D51CBKXM205221",
             "IP_Address": "10.2.4.182",
-            "Last_Logged_in_User": "abutler",
-            "Last_Check_In": "2023-07-27T21:09:00Z"
+            "Last_Logged_in_User": "mellis",
+            "Last_Check_In": "2023-08-08T17:58:00Z"
         }
     },
     {
@@ -5412,9 +5412,9 @@
             "MAC_Address": "D4:25:8B:EB:50:55",
             "UUID": "00000000-0000-0000-0000-00222019D6BA",
             "Hostname": "VWGGETAC2405222",
-            "IP_Address": "10.3.101.212,192.168.13.245",
-            "Last_Logged_in_User": "jsessom",
-            "Last_Check_In": "2023-07-27T21:01:00Z"
+            "IP_Address": "192.168.11.132,192.168.13.247",
+            "Last_Logged_in_User": "alanigan",
+            "Last_Check_In": "2023-08-08T17:56:00Z"
         }
     },
     {
