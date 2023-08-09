@@ -221,7 +221,6 @@
     },
     {
         "name": "CJDSHOP1",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "2CE33220BB",
@@ -239,27 +238,6 @@
         "Last_Logged_in_User": "cbobbitt",
         "Last_Check_In": "2023-08-08T23:40:00Z",
         "Product": "HP ProBook 4540s"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "2CE33220BB",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.88,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 2.6,
-            "CPU_Core_Count": 2,
-            "MAC_Address": "48:D2:24:6E:77:46",
-            "UUID": "ADB4AA5A-0117-11E3-9673-CE39E75CB50B",
-            "Hostname": "CJDSHOP1",
-            "IP_Address": "10.2.202.251",
-            "Last_Logged_in_User": "cbobbitt",
-            "Last_Check_In": "2023-08-08T23:40:00Z",
-            "Product": "HP ProBook 4540s"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "A5001F001006181",
@@ -1643,7 +1621,6 @@
     },
     {
         "name": "D5D1DP51302201",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "D1DP513",
@@ -1659,29 +1636,8 @@
         "Hostname": "D5D1DP51302201",
         "IP_Address": "10.2.7.163",
         "Last_Logged_in_User": "tharvey",
-        "Last_Check_In": "2023-08-09T04:35:00Z",
+        "Last_Check_In": "2023-08-09T14:35:00Z",
         "Product": "Dell OptiPlex 3070"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "D1DP513",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.82,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "E4:54:E8:BB:EF:55",
-            "UUID": "4C4C4544-0031-4410-8050-C4C04F353133",
-            "Hostname": "D5D1DP51302201",
-            "IP_Address": "10.2.7.163",
-            "Last_Logged_in_User": "tharvey",
-            "Last_Check_In": "2023-08-08T23:05:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D53RWNHV202191",
@@ -1720,7 +1676,7 @@
         "Hostname": "D55X3QH6312201",
         "IP_Address": "10.4.1.203",
         "Last_Logged_in_User": "llampkin",
-        "Last_Check_In": "2023-08-09T04:04:00Z",
+        "Last_Check_In": "2023-08-09T14:34:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -2385,7 +2341,6 @@
     },
     {
         "name": "D5GJQDZV209202",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "GJQDZV2",
@@ -2403,27 +2358,6 @@
         "Last_Logged_in_User": "asims",
         "Last_Check_In": "2023-08-09T04:20:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "GJQDZV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:C3:3F:8B",
-            "UUID": "4C4C4544-004A-5110-8044-C7C04F5A5632",
-            "Hostname": "D5GJQDZV209202",
-            "IP_Address": "10.2.7.153",
-            "Last_Logged_in_User": "asims",
-            "Last_Check_In": "2023-08-08T23:50:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5G8TQZV204222",
@@ -2447,7 +2381,6 @@
     },
     {
         "name": "D5FT0XCV202191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "FT0XCV2",
@@ -2465,27 +2398,6 @@
         "Last_Logged_in_User": "lturgeon",
         "Last_Check_In": "2023-08-09T10:20:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "FT0XCV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:B8:5C:46",
-            "UUID": "4C4C4544-0054-3010-8058-C6C04F435632",
-            "Hostname": "D5FT0XCV202191",
-            "IP_Address": "10.6.1.154",
-            "Last_Logged_in_User": "lturgeon",
-            "Last_Check_In": "2023-08-08T23:20:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5G8XTZV204223",
@@ -3029,7 +2941,6 @@
     },
     {
         "name": "A53D04920010192",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVFFAA00331603D049200",
@@ -3047,27 +2958,6 @@
         "Last_Logged_in_User": "fking",
         "Last_Check_In": "2023-08-09T12:16:00Z",
         "Product": "Acer Veriton M2611G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVFFAA00331603D049200",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.4,
-            "CPU_Core_Count": 2,
-            "MAC_Address": "74:27:EA:54:EB:C5",
-            "UUID": "54EA2774-C5EB-1320-0417-151625000000",
-            "Hostname": "A53D04920010192",
-            "IP_Address": "10.2.7.180",
-            "Last_Logged_in_User": "fking",
-            "Last_Check_In": "2023-08-08T23:16:00Z",
-            "Product": "Acer Veriton M2611G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5G9HVZV209222",
@@ -3186,7 +3076,7 @@
         "Hostname": "D586LDRP205221",
         "IP_Address": "10.2.4.188",
         "Last_Logged_in_User": "jchildress",
-        "Last_Check_In": "2023-08-09T05:34:00Z",
+        "Last_Check_In": "2023-08-09T14:34:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -3351,7 +3241,6 @@
     },
     {
         "name": "D5HHWTHV207233",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "HHWTHV2",
@@ -3369,27 +3258,6 @@
         "Last_Logged_in_User": null,
         "Last_Check_In": "2023-08-09T09:32:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "HHWTHV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 465,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:BB:52:DC",
-            "UUID": "4C4C4544-0048-5710-8054-C8C04F485632",
-            "Hostname": "D5HHWTHV207233",
-            "IP_Address": "10.3.1.205",
-            "Last_Logged_in_User": "mbruce",
-            "Last_Check_In": "2023-08-08T23:01:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D51C8HXM205221",
@@ -3453,7 +3321,6 @@
     },
     {
         "name": "D55XQTH6301211",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "5XQTH63",
@@ -3471,27 +3338,6 @@
         "Last_Logged_in_User": "apinarski",
         "Last_Check_In": "2023-08-09T05:09:00Z",
         "Product": "Dell OptiPlex 3080"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "5XQTH63",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.75,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.1,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "A4:BB:6D:B8:7E:6F",
-            "UUID": "4C4C4544-0058-5110-8054-B5C04F483633",
-            "Hostname": "D55XQTH6301211",
-            "IP_Address": "10.4.1.209",
-            "Last_Logged_in_User": "apinarski",
-            "Last_Check_In": "2023-08-09T00:08:00Z",
-            "Product": "Dell OptiPlex 3080"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D55XYPH6301211",
@@ -3575,7 +3421,6 @@
     },
     {
         "name": "D5GQJBN2312201",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "GQJBN23",
@@ -3593,27 +3438,6 @@
         "Last_Logged_in_User": "Kgray",
         "Last_Check_In": "2023-08-09T05:14:00Z",
         "Product": "Dell OptiPlex 3070"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "GQJBN23",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.81,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "1C:72:1D:FD:EE:30",
-            "UUID": "4C4C4544-0051-4A10-8042-C7C04F4E3233",
-            "Hostname": "D5GQJBN2312201",
-            "IP_Address": "10.2.7.155",
-            "Last_Logged_in_User": "Kgray",
-            "Last_Check_In": "2023-08-08T23:14:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D55Y8TH6301211",
@@ -3757,7 +3581,6 @@
     },
     {
         "name": "A53014960006233",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVMWAA005627030149600",
@@ -3775,27 +3598,6 @@
         "Last_Logged_in_User": "fblackwood",
         "Last_Check_In": "2023-08-09T04:53:00Z",
         "Product": "Acer Veriton X4640G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVMWAA005627030149600",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.89,
-            "Disk_Space_GB": 921,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "F4:4D:30:0E:76:E6",
-            "UUID": "0E304DF4-E676-1620-0707-193558000000",
-            "Hostname": "A53014960006233",
-            "IP_Address": "10.5.1.232",
-            "Last_Logged_in_User": "fblackwood",
-            "Last_Check_In": "2023-08-08T23:23:00Z",
-            "Product": "Acer Veriton X4640G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "A53010960011192",
@@ -4459,7 +4261,6 @@
     },
     {
         "name": "D57CDLCS205221",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "7CDLCS2",
@@ -4477,27 +4278,6 @@
         "Last_Logged_in_User": "ppowell",
         "Last_Check_In": "2023-08-09T05:19:00Z",
         "Product": "Dell OptiPlex 3050"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "7CDLCS2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.89,
-            "Disk_Space_GB": 237,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "54:BF:64:97:C4:E0",
-            "UUID": "4C4C4544-0043-4410-804C-B7C04F435332",
-            "Hostname": "D57CDLCS205221",
-            "IP_Address": "10.5.1.194",
-            "Last_Logged_in_User": "ppowell",
-            "Last_Check_In": "2023-08-09T00:19:00Z",
-            "Product": "Dell OptiPlex 3050"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D58TP9XQ202191",
@@ -4661,7 +4441,6 @@
     },
     {
         "name": "D574NGCS205221",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "74NGCS2",
@@ -4679,27 +4458,6 @@
         "Last_Logged_in_User": "ppowell",
         "Last_Check_In": "2023-08-09T12:48:00Z",
         "Product": "Dell OptiPlex 3050"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "74NGCS2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.89,
-            "Disk_Space_GB": 237,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "54:BF:64:98:14:12",
-            "UUID": "4C4C4544-0034-4E10-8047-B7C04F435332",
-            "Hostname": "D574NGCS205221",
-            "IP_Address": "10.5.1.181",
-            "Last_Logged_in_User": "CBUSH",
-            "Last_Check_In": "2023-08-08T23:18:00Z",
-            "Product": "Dell OptiPlex 3050"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5HZGS0S205221",
@@ -5303,7 +5061,6 @@
     },
     {
         "name": "D56JNVMN205221",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "6JNVMN2",
@@ -5321,27 +5078,6 @@
         "Last_Logged_in_User": "astimley",
         "Last_Check_In": "2023-08-09T10:47:00Z",
         "Product": "Dell OptiPlex 3050"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "6JNVMN2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.89,
-            "Disk_Space_GB": 237,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "D8:9E:F3:43:24:6F",
-            "UUID": "4C4C4544-004A-4E10-8056-B6C04F4D4E32",
-            "Hostname": "D56JNVMN205221",
-            "IP_Address": "10.2.5.191",
-            "Last_Logged_in_User": "astimley",
-            "Last_Check_In": "2023-08-09T00:17:00Z",
-            "Product": "Dell OptiPlex 3050"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D55FQ4HK205221",
@@ -5385,7 +5121,6 @@
     },
     {
         "name": "D5GBNV05205212",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "GBNV052",
@@ -5403,27 +5138,6 @@
         "Last_Logged_in_User": "jdiaz",
         "Last_Check_In": "2023-08-09T12:43:00Z",
         "Product": "Dell OptiPlex 3040"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "GBNV052",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.9,
-            "Disk_Space_GB": 465,
-            "CPU_Speed_GHz": 2.5,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "18:66:DA:1C:89:E0",
-            "UUID": "4C4C4544-0042-4E10-8056-C7C04F303532",
-            "Hostname": "D5GBNV05205212",
-            "IP_Address": "10.2.8.218",
-            "Last_Logged_in_User": null,
-            "Last_Check_In": "2023-08-08T23:43:00Z",
-            "Product": "Dell OptiPlex 3040"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "A5121B300010192",
@@ -5581,8 +5295,8 @@
         "UUID": "4C4C4544-004E-4B10-8030-C2C04F594D32",
         "Hostname": "D5BNK0YM205221",
         "IP_Address": "10.3.1.197",
-        "Last_Logged_in_User": "lcrumb",
-        "Last_Check_In": "2023-08-09T08:05:00Z",
+        "Last_Logged_in_User": "DLEACH",
+        "Last_Check_In": "2023-08-09T14:35:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -5847,7 +5561,6 @@
     },
     {
         "name": "A51248300006223",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVMTAA004709012483000",
@@ -5865,27 +5578,6 @@
         "Last_Logged_in_User": "SMCCOY",
         "Last_Check_In": "2023-08-09T04:33:00Z",
         "Product": "Acer Veriton M4640G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVMTAA004709012483000",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.9,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "98:EE:CB:58:EC:1D",
-            "UUID": "6AE75740-F4D9-11E6-9C11-98EECB58EC1D",
-            "Hostname": "A51248300006223",
-            "IP_Address": "10.2.7.179",
-            "Last_Logged_in_User": "SMCCOY",
-            "Last_Check_In": "2023-08-08T23:03:00Z",
-            "Product": "Acer Veriton M4640G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "CPTDAN2",
@@ -6169,7 +5861,6 @@
     },
     {
         "name": "D55YBNH6301211",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "5YBNH63",
@@ -6187,27 +5878,6 @@
         "Last_Logged_in_User": "jbecker",
         "Last_Check_In": "2023-08-09T14:03:00Z",
         "Product": "Dell OptiPlex 3080"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "5YBNH63",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.75,
-            "Disk_Space_GB": 463,
-            "CPU_Speed_GHz": 3.1,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "A4:BB:6D:B8:5B:56",
-            "UUID": "4C4C4544-0059-4210-804E-B5C04F483633",
-            "Hostname": "D55YBNH6301211",
-            "IP_Address": "10.4.1.201",
-            "Last_Logged_in_User": "jbecker",
-            "Last_Check_In": "2023-08-09T00:02:00Z",
-            "Product": "Dell OptiPlex 3080"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5FP14WN207231",
@@ -6231,7 +5901,6 @@
     },
     {
         "name": "D5D11WH0307222",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "D11WH03",
@@ -6249,27 +5918,6 @@
         "Last_Logged_in_User": "Cgreen",
         "Last_Check_In": "2023-08-09T13:35:00Z",
         "Product": "Dell OptiPlex 3070"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "D11WH03",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.82,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "E4:54:E8:BB:EE:06",
-            "UUID": "4C4C4544-0031-3110-8057-C4C04F483033",
-            "Hostname": "D5D11WH0307222",
-            "IP_Address": "10.2.7.207",
-            "Last_Logged_in_User": "Cgreen",
-            "Last_Check_In": "2023-08-08T23:05:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D55XLQH6301211",
@@ -6553,7 +6201,6 @@
     },
     {
         "name": "A554B2920010192",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVFFAA003317054B29200",
@@ -6571,27 +6218,6 @@
         "Last_Logged_in_User": "mcannon",
         "Last_Check_In": "2023-08-09T04:50:00Z",
         "Product": "Acer Veriton M2611G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVFFAA003317054B29200",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.4,
-            "CPU_Core_Count": 2,
-            "MAC_Address": "74:27:EA:56:68:2E",
-            "UUID": "56EA2774-2E68-1320-0424-135236000000",
-            "Hostname": "A554B2920010192",
-            "IP_Address": "10.2.8.189",
-            "Last_Logged_in_User": "mcannon",
-            "Last_Check_In": "2023-08-08T23:20:00Z",
-            "Product": "Acer Veriton M2611G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D51RRH9N205221",
@@ -7155,7 +6781,6 @@
     },
     {
         "name": "D55LZJZV211191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "5LZJZV2",
@@ -7173,27 +6798,6 @@
         "Last_Logged_in_User": "jnorris",
         "Last_Check_In": "2023-08-09T04:59:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "5LZJZV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:C3:5E:3D",
-            "UUID": "4C4C4544-004C-5A10-804A-B5C04F5A5632",
-            "Hostname": "D55LZJZV211191",
-            "IP_Address": "10.3.1.231",
-            "Last_Logged_in_User": "jnorris",
-            "Last_Check_In": "2023-08-08T23:59:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "A55164920003202",
@@ -7217,7 +6821,6 @@
     },
     {
         "name": "D5D0YN51302201",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "D0YN513",
@@ -7255,49 +6858,6 @@
         "Last_Logged_in_User": null,
         "Last_Check_In": "2023-08-09T09:33:00Z",
         "Product": "Dell OptiPlex 3080"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "D0YN513",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.82,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "E4:54:E8:BB:EF:58",
-            "UUID": "4C4C4544-0030-5910-804E-C4C04F353133",
-            "Hostname": "D5D0YN51302201",
-            "IP_Address": "10.5.3.212",
-            "Last_Logged_in_User": "janderson",
-            "Last_Check_In": "2023-08-08T23:05:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
-    },
-    {
-        "name": "D55YFPH6301211",
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "5YFPH63",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.75,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.1,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "A4:BB:6D:B8:E0:E4",
-            "UUID": "4C4C4544-0059-4610-8050-B5C04F483633",
-            "Hostname": "D55YFPH6301211",
-            "IP_Address": "10.4.1.173",
-            "Last_Logged_in_User": null,
-            "Last_Check_In": "2023-08-08T23:33:00Z",
-            "Product": "Dell OptiPlex 3080"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5GJZGZV211191",
@@ -7361,7 +6921,6 @@
     },
     {
         "name": "A554D9920010192",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVFFAA003317054D99200",
@@ -7379,27 +6938,6 @@
         "Last_Logged_in_User": "kygossett",
         "Last_Check_In": "2023-08-09T05:25:00Z",
         "Product": "Acer Veriton M2611G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVFFAA003317054D99200",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.4,
-            "CPU_Core_Count": 2,
-            "MAC_Address": "74:27:EA:56:67:B6",
-            "UUID": "56EA2774-B667-1320-0424-131022000000",
-            "Hostname": "A554D9920010192",
-            "IP_Address": "10.2.7.170",
-            "Last_Logged_in_User": "kygossett",
-            "Last_Check_In": "2023-08-09T00:25:00Z",
-            "Product": "Acer Veriton M2611G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "A511F9300006231",
@@ -7443,7 +6981,6 @@
     },
     {
         "name": "D514W1DX307231",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "14W1DX3",
@@ -7461,27 +6998,6 @@
         "Last_Logged_in_User": "MSullivan",
         "Last_Check_In": "2023-08-09T12:31:00Z",
         "Product": "Dell OptiPlex SFF 7010"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "14W1DX3",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.7,
-            "Disk_Space_GB": 471,
-            "CPU_Speed_GHz": 2.5,
-            "CPU_Core_Count": 14,
-            "MAC_Address": "C4:5A:B1:E6:87:36",
-            "UUID": "4C4C4544-0034-5710-8031-B1C04F445833",
-            "Hostname": "D514W1DX307231",
-            "IP_Address": "10.5.1.234",
-            "Last_Logged_in_User": "ccox",
-            "Last_Check_In": "2023-08-08T23:04:00Z",
-            "Product": "Dell OptiPlex SFF 7010"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5FHDRZV211191",
@@ -7665,7 +7181,6 @@
     },
     {
         "name": "D5GNW8N2302201",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "GNW8N23",
@@ -7683,27 +7198,6 @@
         "Last_Logged_in_User": "chenson",
         "Last_Check_In": "2023-08-09T09:58:00Z",
         "Product": "Dell OptiPlex 3070"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "GNW8N23",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.82,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "E4:54:E8:C5:C1:7D",
-            "UUID": "4C4C4544-004E-5710-8038-C7C04F4E3233",
-            "Hostname": "D5GNW8N2302201",
-            "IP_Address": "10.2.7.169",
-            "Last_Logged_in_User": "chenson",
-            "Last_Check_In": "2023-08-08T23:28:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5FX5WCV201191",
@@ -8227,7 +7721,6 @@
     },
     {
         "name": "D5FTXTCV202191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "FTXTCV2",
@@ -8245,27 +7738,6 @@
         "Last_Logged_in_User": null,
         "Last_Check_In": "2023-08-09T13:24:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "FTXTCV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:B8:5B:38",
-            "UUID": "4C4C4544-0054-5810-8054-C6C04F435632",
-            "Hostname": "D5FTXTCV202191",
-            "IP_Address": "10.2.2.182",
-            "Last_Logged_in_User": "ttunstall",
-            "Last_Check_In": "2023-08-08T23:54:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5CCW1DX307231",
@@ -8349,7 +7821,6 @@
     },
     {
         "name": "D577TT2W202191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "77TT2W2",
@@ -8367,27 +7838,6 @@
         "Last_Logged_in_User": "jhayes",
         "Last_Check_In": "2023-08-09T12:05:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "77TT2W2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:C3:B1:6D",
-            "UUID": "4C4C4544-0037-5410-8054-B7C04F325732",
-            "Hostname": "D577TT2W202191",
-            "IP_Address": "10.2.2.211",
-            "Last_Logged_in_User": "jhayes",
-            "Last_Check_In": "2023-08-08T23:05:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "L5PF2JAHZN08211",
@@ -8451,7 +7901,6 @@
     },
     {
         "name": "D5DQ6L0M205221",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DQ6L0M2",
@@ -8469,27 +7918,6 @@
         "Last_Logged_in_User": "labaker",
         "Last_Check_In": "2023-08-09T11:07:00Z",
         "Product": "Dell OptiPlex 3050"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DQ6L0M2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.89,
-            "Disk_Space_GB": 237,
-            "CPU_Speed_GHz": 3.19,
-            "CPU_Core_Count": 4,
-            "MAC_Address": "D8:9E:F3:13:01:A5",
-            "UUID": "4C4C4544-0051-3610-804C-C4C04F304D32",
-            "Hostname": "D5DQ6L0M205221",
-            "IP_Address": "10.2.2.171",
-            "Last_Logged_in_User": "labaker",
-            "Last_Check_In": "2023-08-08T23:37:00Z",
-            "Product": "Dell OptiPlex 3050"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D5750LCS205221",
@@ -8593,7 +8021,6 @@
     },
     {
         "name": "A55444920010192",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "DTVFFAA003317054449200",
@@ -8611,27 +8038,6 @@
         "Last_Logged_in_User": "jwilson",
         "Last_Check_In": "2023-08-09T05:32:00Z",
         "Product": "Acer Veriton M2611G"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "DTVFFAA003317054449200",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.4,
-            "CPU_Core_Count": 2,
-            "MAC_Address": "74:27:EA:56:5B:21",
-            "UUID": "56EA2774-215B-1320-0424-132606000000",
-            "Hostname": "A55444920010192",
-            "IP_Address": "10.2.2.149",
-            "Last_Logged_in_User": "jwilson",
-            "Last_Check_In": "2023-08-09T00:02:00Z",
-            "Product": "Acer Veriton M2611G"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D51LQ44Y206231",
@@ -8775,7 +8181,6 @@
     },
     {
         "name": "D5FX7YCV202191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "FX7YCV2",
@@ -8813,49 +8218,6 @@
         "Last_Logged_in_User": "kclymer",
         "Last_Check_In": "2023-08-09T04:53:00Z",
         "Product": "Dell OptiPlex 3070"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "FX7YCV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:B8:5C:C9",
-            "UUID": "4C4C4544-0058-3710-8059-C6C04F435632",
-            "Hostname": "D5FX7YCV202191",
-            "IP_Address": "10.2.2.176",
-            "Last_Logged_in_User": "cawilliams",
-            "Last_Check_In": "2023-08-08T23:10:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
-    },
-    {
-        "name": "D5H118N2302201",
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "H118N23",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 7.82,
-            "Disk_Space_GB": 930,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "E4:54:E8:CB:08:E6",
-            "UUID": "4C4C4544-0031-3110-8038-C8C04F4E3233",
-            "Hostname": "D5H118N2302201",
-            "IP_Address": "10.2.2.181",
-            "Last_Logged_in_User": "kclymer",
-            "Last_Check_In": "2023-08-08T23:23:00Z",
-            "Product": "Dell OptiPlex 3070"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D55Z8SH6310211",
@@ -9239,7 +8601,6 @@
     },
     {
         "name": "D5FX5VCV202191",
-<<<<<<< HEAD
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "FX5VCV2",
@@ -9257,27 +8618,6 @@
         "Last_Logged_in_User": "callen",
         "Last_Check_In": "2023-08-09T13:38:00Z",
         "Product": "Dell OptiPlex 3060"
-=======
-        "attributes": {
-            "Domain": "gossett.local",
-            "State": "In Use",
-            "Serial_Number": "FX5VCV2",
-            "OS": "Microsoft Windows 10 Pro",
-            "Version": "10.0.19045",
-            "Service_Pack": "0.0",
-            "Memory_GB": 15.83,
-            "Disk_Space_GB": 464,
-            "CPU_Speed_GHz": 3.0,
-            "CPU_Core_Count": 6,
-            "MAC_Address": "8C:EC:4B:B8:5B:8E",
-            "UUID": "4C4C4544-0058-3510-8056-C6C04F435632",
-            "Hostname": "D5FX5VCV202191",
-            "IP_Address": "10.2.2.175",
-            "Last_Logged_in_User": "callen",
-            "Last_Check_In": "2023-08-08T23:08:00Z",
-            "Product": "Dell OptiPlex 3060"
-        }
->>>>>>> d35cefe4679054155c8451341a829b93c3282c54
     },
     {
         "name": "D58TKDXQ206233",
