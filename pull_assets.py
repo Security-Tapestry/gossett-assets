@@ -24,6 +24,7 @@ REQUEST_URL = (
 
 def pull_assets():
     """Pull Assets from FreshService API"""
+    # Each page is worth 30 Assets
     (
         page_1, page_2, page_3, page_4,
         page_5, page_6, page_7, page_8,
