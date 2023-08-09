@@ -287,13 +287,16 @@ def clean_json(json_input):
         iterator += 1
 
     for asset in json_input:
+
         for key in remove_keys_primary:
             asset.pop(key)
+
         for key in remove_keys_secondary:
             try:
                 asset['type_fields'].pop(key)
             except KeyError:
                 continue
+            
         for key,value in rename_keys.items():
             try:
                 asset['type_fields'][value] = asset['type_fields'].pop(key)
@@ -307,6 +310,7 @@ def clean_json(json_input):
                 asset['type_fields']['Product'] = value
 
     for asset in json_input:
+
         for attribute in attributes:
             asset[attribute] = asset['type_fields'][attribute]
 
