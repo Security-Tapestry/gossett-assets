@@ -223,17 +223,13 @@ def clean_json(json_input):
     """Remove unnecessary items from JSON and renaming keys"""
     iterator = 0
     remove_keys_primary = [
-        'description','impact','usage_type',
-        'asset_tag','user_id','location_id',
-        'agent_id','group_id','assigned_on',
-        'created_at','updated_at','end_of_life',
-        'discovery_enabled','author_type','asset_type_id',
-        'department_id','display_id','id'
+        'description','impact','usage_type','asset_tag','user_id','location_id',
+        'agent_id','group_id','assigned_on','created_at','updated_at','end_of_life',
+        'discovery_enabled','author_type','asset_type_id','department_id','display_id','id'
     ]
     remove_keys_secondary = [
-        'vendor_21001393125','cost_21001393125',
-        'warranty_21001393125','acquisition_date_21001393125',
-        'warranty_expiry_date_21001393125',
+        'vendor_21001393125','cost_21001393125','warranty_21001393125',
+        'acquisition_date_21001393125','warranty_expiry_date_21001393125',
         'depreciation_id','salvage'
     ]
     rename_keys = {
@@ -255,50 +251,41 @@ def clean_json(json_input):
         'last_audit_date_21001393125': 'Last_Check_In',
         'product_21001393125': 'Product',
     }
+    attributes = [
+        'Domain', 'State', 'Serial_Number', 'OS', 'Version',
+        'Service_Pack', 'Memory_GB', 'Disk_Space_GB', 'CPU_Speed_GHz',
+        'CPU_Core_Count', 'MAC_Address', 'UUID', 'Hostname',
+        'IP_Address', 'Last_Logged_in_User', 'Last_Check_In', 'Product'
+    ]
     product_and_vendors = {
-        21000221562: 'Panasonic CF-52JE2VWVW',
-        21000221594: 'Panasonic CF-54-1',
-        21000221596: 'Panasonic FZ55-1',
-        21000221565: 'HP EliteBook 840 G2',
-        21000221569: 'HP ProBook 4540s',
-        21000221588: 'Dell Latitude 3500',
-        21000221564: 'Dell OptiPlex 3000',
-        21000221590: 'Dell OptiPlex 3010',
-        21000221592: 'Dell OptiPlex 3040',
-        21000221549: 'Dell OptiPlex 3050',
-        21000221446: 'Dell OptiPlex 3060',
-        21000221571: 'Dell OptiPlex 3070',
-        21000221570: 'Dell OptiPlex 3080',
-        21000221550: 'Dell OptiPlex 5060',
-        21000221597: 'Dell OptiPlex 960',
-        21000221563: 'Dell OptiPlex SFF 7010',
-        21000221586: 'Dell Precision 3630 Tower',
-        21000221591: 'Dell Precision T3610',
-        21000221576: 'GETAC S410',
-        21000221600: 'GETAC S410G3',
-        21000221578: 'GETAC S410G4',
-        21000221601: 'LENOVO ThinkBook 15 G2 ARE',
-        21000221572: 'LENOVO ThinkBook 15 G2 ITL',
-        21000221575: 'LENOVO ThinkPad E14',
-        21000221599: 'LENOVO ThinkPad E14 Gen 2',
-        21000221602: 'LENOVO ThinkPad E580',
-        21000221595: 'LENOVO ThinkPad Edge E440',
-        21000221568: 'LENOVO ThinkPad Edge E531',
-        21000221567: 'LENOVO ThinkPad L15 Gen 1',
-        21000224164: 'LENOVO ThinkPad T440p',
-        21000221593: 'Acer VZ4820G',
-        21000221577: 'Acer Veriton X4640G',
-        21000221574: 'Acer Veriton M2611G',
-        21000221566: 'Acer Veriton M2632G',
-        21000221589: 'Acer Veriton M4618G',
-        21000221587: 'Acer Veriton M4640G',
-        21000221573: 'Acer Veriton M4650G',
-        21000224160: 'Microsoft Hyper-V Virtual Machine'
+        21000221593: 'Acer VZ4820G', 21000221577: 'Acer Veriton X4640G',
+        21000221574: 'Acer Veriton M2611G', 21000221566: 'Acer Veriton M2632G',
+        21000221589: 'Acer Veriton M4618G', 21000221587: 'Acer Veriton M4640G',
+        21000221573: 'Acer Veriton M4650G', 21000221588: 'Dell Latitude 3500',
+        21000221564: 'Dell OptiPlex 3000', 21000221590: 'Dell OptiPlex 3010',
+        21000221592: 'Dell OptiPlex 3040', 21000221549: 'Dell OptiPlex 3050',
+        21000221446: 'Dell OptiPlex 3060', 21000221571: 'Dell OptiPlex 3070',
+        21000221570: 'Dell OptiPlex 3080', 21000221550: 'Dell OptiPlex 5060',
+        21000221597: 'Dell OptiPlex 960', 21000221563: 'Dell OptiPlex SFF 7010',
+        21000221586: 'Dell Precision 3630 Tower', 21000221591: 'Dell Precision T3610',
+        21000224159: 'Dell PowerEdge R740', 21000221576: 'GETAC S410',
+        21000221600: 'GETAC S410G3', 21000221578: 'GETAC S410G4',
+        21000221565: 'HP EliteBook 840 G2', 21000221569: 'HP ProBook 4540s',
+        21000224162: 'HPE ProLiant DL160 G6', 21000224161: 'HPE ProLiant DL380 Gen10',
+        21000224163: 'HPE ProLiant DL560 Gen10', 21000221601: 'LENOVO ThinkBook 15 G2 ARE',
+        21000221572: 'LENOVO ThinkBook 15 G2 ITL', 21000221575: 'LENOVO ThinkPad E14',
+        21000221599: 'LENOVO ThinkPad E14 Gen 2', 21000221602: 'LENOVO ThinkPad E580',
+        21000221595: 'LENOVO ThinkPad Edge E440', 21000221568: 'LENOVO ThinkPad Edge E531',
+        21000221567: 'LENOVO ThinkPad L15 Gen 1', 21000224164: 'LENOVO ThinkPad T440p',
+        21000224160: 'Microsoft Hyper-V Virtual Machine', 21000221562: 'Panasonic CF-52JE2VWVW',
+        21000221594: 'Panasonic CF-54-1', 21000221596: 'Panasonic FZ55-1'
     }
+
     for asset in json_input:
         if asset['author_type'] == 'User':
             json_input.pop(iterator)
         iterator += 1
+
     for asset in json_input:
         for key in remove_keys_primary:
             asset.pop(key)
@@ -312,12 +299,18 @@ def clean_json(json_input):
                 asset['type_fields'][value] = asset['type_fields'].pop(key)
             except KeyError:
                 continue
+
     for asset in json_input:
-        asset['attributes'] = asset.pop('type_fields')
         
         for product_id, value in product_and_vendors.items():
-            if asset['attributes']['Product'] == product_id:
-                asset['attributes']['Product'] = value
+            if asset['type_fields']['Product'] == product_id:
+                asset['type_fields']['Product'] = value
+
+    for asset in json_input:
+        for attribute in attributes:
+            asset[attribute] = asset['type_fields'][attribute]
+
+        asset.pop('type_fields')
 
     return json_input
 
