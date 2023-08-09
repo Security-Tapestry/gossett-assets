@@ -216,7 +216,8 @@ def create_html(json_input):
             + '<input type="text" id="productSearch" onkeyup="filterProduct()" placeholder="Product...">\n' # pylint: disable=C0301
             + html_string
             + '\n</body>\n<script src="assets/filtertable.js"></script>\n'
-            + '</html>')
+            + '</html>'
+            )
 
 
 def clean_json(json_input):
@@ -296,7 +297,7 @@ def clean_json(json_input):
                 asset['type_fields'].pop(key)
             except KeyError:
                 continue
-            
+
         for key,value in rename_keys.items():
             try:
                 asset['type_fields'][value] = asset['type_fields'].pop(key)
