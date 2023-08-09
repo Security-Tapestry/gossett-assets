@@ -40,12 +40,17 @@ def pull_assets():
         pull_assets_page_13(), pull_assets_page_14(),
         pull_assets_page_15()
     )
+
     combined_json = (
-        page_1 + page_2 + page_3 + page_4 ) + (
-        page_5 + page_6 + page_7 + page_8 ) + (
-        page_9 + page_10 + page_11 + page_12 ) + (
+        page_1 + page_2 + page_3 + page_4
+        ) + (
+        page_5 + page_6 + page_7 + page_8
+        ) + (
+        page_9 + page_10 + page_11 + page_12
+        ) + (
         page_13 + page_14 + page_15
     )
+
     save_asset_json(clean_json(combined_json))
     with open('docs/assets.json', 'r', encoding='UTF-8') as file:
         create_html(json.load(file))
@@ -223,17 +228,19 @@ def create_html(json_input):
 
 def clean_json(json_input):
     """Remove unnecessary items from JSON and renaming keys"""
-    iterator = 0
+
     remove_keys_primary = [
         'description','impact','usage_type','asset_tag','user_id','location_id',
         'agent_id','group_id','assigned_on','created_at','updated_at','end_of_life',
         'discovery_enabled','author_type','asset_type_id','department_id','display_id','id'
     ]
+
     remove_keys_secondary = [
         'vendor_21001393125','cost_21001393125','warranty_21001393125',
         'acquisition_date_21001393125','warranty_expiry_date_21001393125',
         'depreciation_id','salvage'
     ]
+
     rename_keys = {
         'domain_21001393125': 'Domain',
         'asset_state_21001393125': 'State',
@@ -253,6 +260,7 @@ def clean_json(json_input):
         'last_audit_date_21001393125': 'Last_Check_In',
         'product_21001393125': 'Product',
     }
+
     attributes = [
         'Domain', 'State', 'Serial_Number', 'OS', 'Version',
         'Service_Pack', 'Memory_GB', 'Disk_Space_GB', 'CPU_Speed_GHz',
@@ -284,14 +292,12 @@ def clean_json(json_input):
     }
 
     for asset in json_input:
-        if asset['author_type'] == 'User':
-            json_input.pop(iterator)
-        iterator += 1
-
-    for asset in json_input:
 
         for key in remove_keys_primary:
-            asset.pop(key)
+            try:
+                asset.pop(key)
+            except KeyError:
+                continue
 
         for key in remove_keys_secondary:
             try:
@@ -305,13 +311,9 @@ def clean_json(json_input):
             except KeyError:
                 continue
 
-    for asset in json_input:
-        
         for product_id, value in product_and_vendors.items():
             if asset['type_fields']['Product'] == product_id:
                 asset['type_fields']['Product'] = value
-
-    for asset in json_input:
 
         for attribute in attributes:
             asset[attribute] = asset['type_fields'][attribute]
