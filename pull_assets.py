@@ -286,8 +286,9 @@ def clean_json(json_input):
         21000224162: 'HPE ProLiant DL160 G6', 21000224161: 'HPE ProLiant DL380 Gen10',
         21000224163: 'HPE ProLiant DL560 Gen10', 21000221601: 'LENOVO ThinkBook 15 G2 ARE',
         21000221572: 'LENOVO ThinkBook 15 G2 ITL', 21000221575: 'LENOVO ThinkPad E14',
-        21000221599: 'LENOVO ThinkPad E14 Gen 2', 21000221602: 'LENOVO ThinkPad E580',
-        21000221595: 'LENOVO ThinkPad Edge E440', 21000221568: 'LENOVO ThinkPad Edge E531',
+        21000221599: 'LENOVO ThinkPad E14 Gen 2', 21000224204: 'LENOVO Thinkpad E550',
+        21000221602: 'LENOVO ThinkPad E580', 21000221595: 'LENOVO ThinkPad Edge E440',
+        21000221568: 'LENOVO ThinkPad Edge E531',
         21000221567: 'LENOVO ThinkPad L15 Gen 1', 21000224164: 'LENOVO ThinkPad T440p',
         21000224160: 'Microsoft Hyper-V Virtual Machine', 21000221562: 'Panasonic CF-52JE2VWVW',
         21000221594: 'Panasonic CF-54-1', 21000221596: 'Panasonic FZ55-1'
