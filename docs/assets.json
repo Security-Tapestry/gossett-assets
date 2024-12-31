@@ -11061,12 +11061,12 @@
         "Disk_Space_GB": 237,
         "CPU_Speed_GHz": 2.42,
         "CPU_Core_Count": 4,
-        "MAC_Address": "7C:8A:E1:B5:69:C2",
+        "MAC_Address": "8C:1D:96:E6:7A:80",
         "UUID": "F558947E-48FD-11EC-810D-7C8AE1B569C2",
         "Hostname": "L5MP247ZCX10232",
-        "IP_Address": "10.2.202.209",
+        "IP_Address": "172.20.10.7",
         "Last_Logged_in_User": "jtripp",
-        "Last_Check_In": "2024-12-26T19:18:00Z",
+        "Last_Check_In": "2024-12-30T16:16:00Z",
         "Product": "LENOVO ThinkBook 15 G2 ITL"
     },
     {
