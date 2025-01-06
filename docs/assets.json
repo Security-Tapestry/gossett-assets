@@ -993,9 +993,9 @@
         "MAC_Address": "80:18:44:EF:9B:0C",
         "UUID": "4C4C4544-0031-3510-8044-B5C04F585132",
         "Hostname": "EXCH2",
-        "IP_Address": "10.2.1.116,169.254.2.121",
+        "IP_Address": "10.2.1.116",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2024-12-28T18:02:00Z",
+        "Last_Check_In": "2025-01-05T22:33:00Z",
         "Product": "Dell PowerEdge R740"
     },
     {
@@ -3911,7 +3911,7 @@
         "Hostname": "A5420A960011192",
         "IP_Address": "10.2.4.215",
         "Last_Logged_in_User": "kkurrus",
-        "Last_Check_In": "2025-01-02T21:59:00Z",
+        "Last_Check_In": "2025-01-05T16:25:00Z",
         "Product": "Acer Veriton X4640G"
     },
     {
@@ -6637,8 +6637,8 @@
         "UUID": "4C4C4544-0037-3610-804A-B8C04F525032",
         "Hostname": "D5876JRP205221",
         "IP_Address": "10.2.5.174",
-        "Last_Logged_in_User": "sgipson",
-        "Last_Check_In": "2025-01-04T16:18:00Z",
+        "Last_Logged_in_User": "DESUTTON",
+        "Last_Check_In": "2025-01-05T01:18:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -8015,7 +8015,7 @@
         "Hostname": "D55YBNH6301211",
         "IP_Address": "10.4.1.201",
         "Last_Logged_in_User": "jbecker",
-        "Last_Check_In": "2025-01-02T18:02:00Z",
+        "Last_Check_In": "2025-01-05T20:22:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -9986,7 +9986,7 @@
         "Hostname": "D5FX8VCV204222",
         "IP_Address": "10.2.2.246",
         "Last_Logged_in_User": "wcampbell",
-        "Last_Check_In": "2025-01-05T00:05:00Z",
+        "Last_Check_In": "2025-01-05T14:05:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
