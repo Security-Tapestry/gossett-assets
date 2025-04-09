@@ -22,8 +22,8 @@
         "UUID": "4C4C4544-0042-5010-8059-C7C04F593732",
         "Hostname": "D5GBPYY7209231",
         "IP_Address": "10.3.1.211",
-        "Last_Logged_in_User": "jjolly",
-        "Last_Check_In": "2025-04-07T20:27:00Z",
+        "Last_Logged_in_User": "jburke",
+        "Last_Check_In": "2025-04-08T21:27:00Z",
         "Product": "Dell OptiPlex 3040"
     },
     {
@@ -131,7 +131,7 @@
         "Hostname": "D5C3W1DX305231",
         "IP_Address": "10.2.1.225",
         "Last_Logged_in_User": "rgodbey",
-        "Last_Check_In": "2025-04-07T23:32:00Z",
+        "Last_Check_In": "2025-04-08T21:08:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -293,7 +293,7 @@
         "Hostname": "VWGGETAC3704222",
         "IP_Address": "10.3.101.222,192.168.13.171",
         "Last_Logged_in_User": "jbentley",
-        "Last_Check_In": "2025-04-07T13:35:00Z",
+        "Last_Check_In": "2025-04-08T13:36:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -319,8 +319,8 @@
         "UUID": "4C4C4544-0059-3110-8034-C7C04F574E32",
         "Hostname": "D5GY14WN202191",
         "IP_Address": "10.6.1.160",
-        "Last_Logged_in_User": "edavis",
-        "Last_Check_In": "2025-04-07T15:16:00Z",
+        "Last_Logged_in_User": "mphillips",
+        "Last_Check_In": "2025-04-08T15:12:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -535,8 +535,8 @@
         "UUID": "A9C632C9-BEE7-5569-BB75-74834B063376",
         "Hostname": "P5TSA6561102231",
         "IP_Address": "10.4.101.220",
-        "Last_Logged_in_User": "jalbonetti",
-        "Last_Check_In": "2025-04-07T17:39:00Z",
+        "Last_Logged_in_User": "jlevaugh",
+        "Last_Check_In": "2025-04-08T19:09:00Z",
         "Product": "Panasonic FZ55-1"
     },
     {
@@ -778,8 +778,8 @@
         "UUID": "3406BFDF-6BE0-478F-9EFD-722BB53C8A11",
         "Hostname": "VM-APPSRV",
         "IP_Address": "10.2.1.125",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-06T22:40:00Z",
+        "Last_Logged_in_User": "rgodbey",
+        "Last_Check_In": "2025-04-08T15:14:00Z",
         "Product": "Microsoft Hyper-V Virtual Machine"
     },
     {
@@ -860,7 +860,7 @@
         "Hostname": "WINDOWSPKI",
         "IP_Address": "10.2.1.115",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-02T04:56:00Z",
+        "Last_Check_In": "2025-04-08T03:10:00Z",
         "Product": "Microsoft Hyper-V Virtual Machine"
     },
     {
@@ -1075,8 +1075,8 @@
         "UUID": "4C4C4544-004C-4D10-805A-B1C04F335932",
         "Hostname": "D51LMZ3Y204222",
         "IP_Address": "10.4.1.172",
-        "Last_Logged_in_User": "Stidwell",
-        "Last_Check_In": "2025-04-07T13:55:00Z",
+        "Last_Logged_in_User": "swestmoreland",
+        "Last_Check_In": "2025-04-08T19:15:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -1345,8 +1345,8 @@
         "UUID": "4C4C4544-0030-5310-8030-B4C04F445833",
         "Hostname": "D540S0DX305231",
         "IP_Address": "10.2.8.173",
-        "Last_Logged_in_User": "jsiler",
-        "Last_Check_In": "2025-04-07T19:33:00Z",
+        "Last_Logged_in_User": "LWHITE",
+        "Last_Check_In": "2025-04-08T17:08:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -1508,7 +1508,7 @@
         "Hostname": "D51G7S51307231",
         "IP_Address": "10.2.6.220",
         "Last_Logged_in_User": "mfoote",
-        "Last_Check_In": "2025-03-28T12:38:00Z",
+        "Last_Check_In": "2025-04-08T14:51:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -1616,7 +1616,7 @@
         "Hostname": "D59G15JV203221",
         "IP_Address": "10.2.7.182",
         "Last_Logged_in_User": "dwarren",
-        "Last_Check_In": "2025-04-04T10:26:00Z",
+        "Last_Check_In": "2025-04-08T19:28:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -1643,7 +1643,7 @@
         "Hostname": "A53015960011192",
         "IP_Address": "10.2.8.247",
         "Last_Logged_in_User": "Mrussell",
-        "Last_Check_In": "2025-04-04T23:35:00Z",
+        "Last_Check_In": "2025-04-08T12:38:00Z",
         "Product": "Acer Veriton X4640G"
     },
     {
@@ -1724,7 +1724,7 @@
         "Hostname": "D596HZ0T205221",
         "IP_Address": "10.3.1.198",
         "Last_Logged_in_User": "mduncan",
-        "Last_Check_In": "2025-04-07T19:33:00Z",
+        "Last_Check_In": "2025-04-08T22:33:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -1750,8 +1750,8 @@
         "UUID": "4C4C4544-004A-5310-8056-B1C04F545132",
         "Hostname": "D51JSVTQ205221",
         "IP_Address": "10.2.4.189",
-        "Last_Logged_in_User": "ggreen",
-        "Last_Check_In": "2025-04-07T19:41:00Z",
+        "Last_Logged_in_User": "dsutton",
+        "Last_Check_In": "2025-04-08T21:41:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -1805,7 +1805,7 @@
         "Hostname": "D5FRSPQP205221",
         "IP_Address": "10.2.5.198",
         "Last_Logged_in_User": "gpratcher",
-        "Last_Check_In": "2025-04-07T22:32:00Z",
+        "Last_Check_In": "2025-04-08T23:32:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -1858,8 +1858,8 @@
         "UUID": "4C4C4544-004A-3710-8057-B6C04F4D4E32",
         "Hostname": "D56J7WMN205221",
         "IP_Address": "10.2.4.186",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-05T09:00:00Z",
+        "Last_Logged_in_User": "abutler",
+        "Last_Check_In": "2025-04-08T19:30:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -1885,8 +1885,8 @@
         "UUID": "4C4C4544-004E-4810-8047-C7C04F543133",
         "Hostname": "D5GNHGT1302201",
         "IP_Address": "10.2.4.235",
-        "Last_Logged_in_User": "jmccullough",
-        "Last_Check_In": "2025-04-07T12:35:00Z",
+        "Last_Logged_in_User": "CHURD",
+        "Last_Check_In": "2025-04-08T14:23:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -1939,8 +1939,8 @@
         "UUID": "4C4C4544-004E-5810-8033-B7C04F445032",
         "Hostname": "D57NX3DP205221",
         "IP_Address": "10.5.1.188",
-        "Last_Logged_in_User": "ppowell",
-        "Last_Check_In": "2025-04-07T22:47:00Z",
+        "Last_Logged_in_User": "AOUTLAW",
+        "Last_Check_In": "2025-04-08T14:21:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -2182,8 +2182,8 @@
         "UUID": "4C4C4544-004A-3710-8037-B6C04F435032",
         "Hostname": "D56J77CP205221",
         "IP_Address": "10.2.5.232",
-        "Last_Logged_in_User": "NMERA",
-        "Last_Check_In": "2025-04-07T22:14:00Z",
+        "Last_Logged_in_User": "kcarter",
+        "Last_Check_In": "2025-04-08T21:35:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -2210,7 +2210,7 @@
         "Hostname": "D585MBMN205221",
         "IP_Address": "10.5.1.199",
         "Last_Logged_in_User": "chthomas",
-        "Last_Check_In": "2025-04-05T17:20:00Z",
+        "Last_Check_In": "2025-04-08T21:16:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -2479,8 +2479,8 @@
         "UUID": "4C4C4544-0034-5710-8031-B5C04F445833",
         "Hostname": "D554W1DX305231",
         "IP_Address": "10.2.8.237",
-        "Last_Logged_in_User": "jrobinzine",
-        "Last_Check_In": "2025-04-04T00:17:00Z",
+        "Last_Logged_in_User": "MGRIFFIN",
+        "Last_Check_In": "2025-04-08T12:47:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -2750,7 +2750,7 @@
         "Hostname": "D5GNN6N2302201",
         "IP_Address": "10.3.1.232",
         "Last_Logged_in_User": "jnorris",
-        "Last_Check_In": "2025-04-07T14:53:00Z",
+        "Last_Check_In": "2025-04-08T21:53:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -2803,8 +2803,8 @@
         "UUID": "4C4C4544-004E-5710-8043-C7C04F543133",
         "Hostname": "D5GNWCT1302201",
         "IP_Address": "10.2.4.201",
-        "Last_Logged_in_User": "abaltz",
-        "Last_Check_In": "2025-04-07T21:44:00Z",
+        "Last_Logged_in_User": "zfields",
+        "Last_Check_In": "2025-04-08T18:42:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -3425,7 +3425,7 @@
         "Hostname": "D5GQ1LH6312201",
         "IP_Address": "10.4.1.171",
         "Last_Logged_in_User": "bdavis",
-        "Last_Check_In": "2025-04-07T22:52:00Z",
+        "Last_Check_In": "2025-04-08T14:15:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -3533,7 +3533,7 @@
         "Hostname": "L5MP23NA9G12211",
         "IP_Address": "10.2.207.200",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-03-12T20:52:00Z",
+        "Last_Check_In": "2025-04-08T21:43:00Z",
         "Product": "LENOVO ThinkBook 15 G2 ARE"
     },
     {
@@ -3641,7 +3641,7 @@
         "Hostname": "AUDIGETAC14",
         "IP_Address": "10.2.206.233,192.168.13.125",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-04-04T17:20:00Z",
+        "Last_Check_In": "2025-04-08T12:56:00Z",
         "Product": "GETAC S410G3"
     },
     {
@@ -3776,7 +3776,7 @@
         "Hostname": "D55Y1SH6301211",
         "IP_Address": "10.4.1.211",
         "Last_Logged_in_User": "jalbonetti",
-        "Last_Check_In": "2025-04-03T22:54:00Z",
+        "Last_Check_In": "2025-04-09T00:04:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -3830,7 +3830,7 @@
         "Hostname": "D550S0DX305231",
         "IP_Address": "10.2.8.207",
         "Last_Logged_in_User": "tfoster",
-        "Last_Check_In": "2025-04-04T05:33:00Z",
+        "Last_Check_In": "2025-04-08T04:45:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -3992,7 +3992,7 @@
         "Hostname": "D5HZNY3L207202",
         "IP_Address": "10.2.5.201",
         "Last_Logged_in_User": "jsecrist",
-        "Last_Check_In": "2025-04-05T15:29:00Z",
+        "Last_Check_In": "2025-04-08T21:57:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4207,8 +4207,8 @@
         "UUID": "41304DF4-AB0C-1520-1224-132205000000",
         "Hostname": "A51DE7960011192",
         "IP_Address": "10.2.6.205",
-        "Last_Logged_in_User": "jbrown",
-        "Last_Check_In": "2025-04-07T14:12:00Z",
+        "Last_Logged_in_User": "Gbrandt",
+        "Last_Check_In": "2025-04-08T17:29:00Z",
         "Product": "Acer Veriton X4640G"
     },
     {
@@ -4235,7 +4235,7 @@
         "Hostname": "D586LDRP205221",
         "IP_Address": "10.2.4.188",
         "Last_Logged_in_User": "abutler",
-        "Last_Check_In": "2025-04-06T04:04:00Z",
+        "Last_Check_In": "2025-04-08T21:26:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4288,8 +4288,8 @@
         "UUID": "4C4C4544-0059-4810-8054-B5C04F483633",
         "Hostname": "D55YHTH6307231",
         "IP_Address": "10.3.1.210",
-        "Last_Logged_in_User": "jnorris",
-        "Last_Check_In": "2025-04-07T14:52:00Z",
+        "Last_Logged_in_User": "jojackson",
+        "Last_Check_In": "2025-04-08T20:51:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-04-05T14:36:00Z",
+        "Last_Check_In": "2025-04-08T04:04:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -4693,8 +4693,8 @@
         "UUID": "4C4C4544-004A-4610-8054-B6C04F4D4E32",
         "Hostname": "D56JFTMN205221",
         "IP_Address": "10.2.5.196",
-        "Last_Logged_in_User": "gpratcher",
-        "Last_Check_In": "2025-04-07T23:41:00Z",
+        "Last_Logged_in_User": "Hmoore",
+        "Last_Check_In": "2025-04-08T17:12:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4910,7 +4910,7 @@
         "Hostname": "D5GQ2CH6301211",
         "IP_Address": "10.4.1.206",
         "Last_Logged_in_User": "aaladarbi",
-        "Last_Check_In": "2025-04-05T02:11:00Z",
+        "Last_Check_In": "2025-04-08T06:07:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -5099,7 +5099,7 @@
         "Hostname": "D5GQWGT1302201",
         "IP_Address": "10.2.6.172",
         "Last_Logged_in_User": "tmcnamara",
-        "Last_Check_In": "2025-04-05T21:31:00Z",
+        "Last_Check_In": "2025-04-08T14:09:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -5288,7 +5288,7 @@
         "Hostname": "D51G3S51302201",
         "IP_Address": "10.5.2.210",
         "Last_Logged_in_User": "JCurrie",
-        "Last_Check_In": "2025-04-05T05:41:00Z",
+        "Last_Check_In": "2025-04-08T21:41:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -5394,9 +5394,9 @@
         "MAC_Address": "90:78:41:38:53:9C",
         "UUID": "00000000-0000-0000-0000-002220244672",
         "Hostname": "VWGGETAC38",
-        "IP_Address": "10.3.101.225,192.168.13.207",
-        "Last_Logged_in_User": "ahirsch",
-        "Last_Check_In": "2025-04-04T19:40:00Z",
+        "IP_Address": "10.3.101.225,192.168.13.213",
+        "Last_Logged_in_User": "gbrown",
+        "Last_Check_In": "2025-04-08T19:45:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -5611,8 +5611,8 @@
         "UUID": "4C4C4544-0056-4E10-804B-B3C04F4D4E32",
         "Hostname": "D53VNKMS205221",
         "IP_Address": "10.2.8.182",
-        "Last_Logged_in_User": "miphillips",
-        "Last_Check_In": "2025-04-05T14:31:00Z",
+        "Last_Logged_in_User": "MGRIFFIN",
+        "Last_Check_In": "2025-04-08T16:53:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -6125,7 +6125,7 @@
         "Hostname": "D5HZGS0S205221",
         "IP_Address": "10.2.8.184",
         "Last_Logged_in_User": "Aclark",
-        "Last_Check_In": "2025-04-07T13:45:00Z",
+        "Last_Check_In": "2025-04-08T21:45:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -6178,8 +6178,8 @@
         "UUID": "51EE012A-07F1-57A5-9BE2-E06843D5D845",
         "Hostname": "P5TSA8895704211",
         "IP_Address": "10.4.101.207",
-        "Last_Logged_in_User": "mirby",
-        "Last_Check_In": "2025-04-07T20:49:00Z",
+        "Last_Logged_in_User": "cstanley",
+        "Last_Check_In": "2025-04-08T12:57:00Z",
         "Product": "Panasonic FZ55-1"
     },
     {
@@ -6421,8 +6421,8 @@
         "UUID": "4FD69660-23F3-5F2F-8BED-BF1CB459A5C7",
         "Hostname": "P5TSC1756902231",
         "IP_Address": "10.4.101.219",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-05T21:39:00Z",
+        "Last_Logged_in_User": "aarnett",
+        "Last_Check_In": "2025-04-08T21:10:00Z",
         "Product": "Panasonic CF-54-1"
     },
     {
@@ -6637,8 +6637,8 @@
         "UUID": "4C4C4544-0037-3610-804A-B8C04F525032",
         "Hostname": "D5876JRP205221",
         "IP_Address": "10.2.5.174",
-        "Last_Logged_in_User": "Hmoore",
-        "Last_Check_In": "2025-04-08T00:27:00Z",
+        "Last_Logged_in_User": "gpratcher",
+        "Last_Check_In": "2025-04-09T00:07:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -6664,8 +6664,8 @@
         "UUID": "41304DF4-FA08-1520-1228-185112000000",
         "Hostname": "A51C9A960005223",
         "IP_Address": "10.6.1.161",
-        "Last_Logged_in_User": "Asanders",
-        "Last_Check_In": "2025-04-07T13:25:00Z",
+        "Last_Logged_in_User": "asanders",
+        "Last_Check_In": "2025-04-08T18:09:00Z",
         "Product": "Acer Veriton X4640G"
     },
     {
@@ -6718,8 +6718,8 @@
         "UUID": "EB304DF4-17A6-1720-0725-135856000000",
         "Hostname": "A511D4300010202",
         "IP_Address": "10.2.5.222",
-        "Last_Logged_in_User": "wfink",
-        "Last_Check_In": "2025-04-08T00:12:00Z",
+        "Last_Logged_in_User": "agoodwin",
+        "Last_Check_In": "2025-04-08T13:12:00Z",
         "Product": "Acer Veriton M4650G"
     },
     {
@@ -7313,7 +7313,7 @@
         "Hostname": "D590061Q203221",
         "IP_Address": "10.2.5.234",
         "Last_Logged_in_User": "DETHOMPSON",
-        "Last_Check_In": "2025-04-05T17:22:00Z",
+        "Last_Check_In": "2025-04-08T22:52:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -8042,7 +8042,7 @@
         "Hostname": "D5FP14WN207231",
         "IP_Address": "10.2.6.211",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-07T12:20:00Z",
+        "Last_Check_In": "2025-04-08T01:19:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -8177,7 +8177,7 @@
         "Hostname": "D51N1TTQ205221",
         "IP_Address": "10.5.1.195",
         "Last_Logged_in_User": "Tknowlton",
-        "Last_Check_In": "2025-04-05T13:08:00Z",
+        "Last_Check_In": "2025-04-08T01:45:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -8204,7 +8204,7 @@
         "Hostname": "D574XMCS205221",
         "IP_Address": "10.2.4.195",
         "Last_Logged_in_User": "ggreen",
-        "Last_Check_In": "2025-04-05T15:04:00Z",
+        "Last_Check_In": "2025-04-08T23:50:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -8231,7 +8231,7 @@
         "Hostname": "D5H4T5KT202233",
         "IP_Address": "10.5.201.223",
         "Last_Logged_in_User": "jtuepker",
-        "Last_Check_In": "2025-04-07T13:05:00Z",
+        "Last_Check_In": "2025-04-08T19:50:00Z",
         "Product": "Dell Latitude 3500"
     },
     {
@@ -8716,8 +8716,8 @@
         "UUID": "4C4C4544-0037-5410-804A-B7C04F435332",
         "Hostname": "D577TJCS205221",
         "IP_Address": "10.2.8.191",
-        "Last_Logged_in_User": "MGRIFFIN",
-        "Last_Check_In": "2025-04-07T14:01:00Z",
+        "Last_Logged_in_User": "vsims",
+        "Last_Check_In": "2025-04-08T14:31:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -8986,8 +8986,8 @@
         "UUID": "4C4C4544-0044-5710-8031-C4C04F445833",
         "Hostname": "D5DDW1DX305231",
         "IP_Address": "10.2.4.209",
-        "Last_Logged_in_User": "melong",
-        "Last_Check_In": "2025-04-03T22:20:00Z",
+        "Last_Logged_in_User": "Melong",
+        "Last_Check_In": "2025-04-08T15:26:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -9121,8 +9121,8 @@
         "UUID": "4C4C4544-0037-5010-8052-B7C04F325732",
         "Hostname": "D577PR2W202191",
         "IP_Address": "10.3.1.179",
-        "Last_Logged_in_User": "rwright",
-        "Last_Check_In": "2025-04-05T10:14:00Z",
+        "Last_Logged_in_User": "mduncan",
+        "Last_Check_In": "2025-04-08T23:36:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -9391,8 +9391,8 @@
         "UUID": "4C4C4544-0058-4B10-8058-C6C04F435632",
         "Hostname": "D5FXKXCV204223",
         "IP_Address": "10.2.5.235",
-        "Last_Logged_in_User": "NMERA",
-        "Last_Check_In": "2025-04-07T17:01:00Z",
+        "Last_Logged_in_User": "jujohnson",
+        "Last_Check_In": "2025-04-08T13:32:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -9500,7 +9500,7 @@
         "Hostname": "D55XRPH6301211",
         "IP_Address": "10.4.1.207",
         "Last_Logged_in_User": "aaladarbi",
-        "Last_Check_In": "2025-04-05T14:42:00Z",
+        "Last_Check_In": "2025-04-08T12:48:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -9581,7 +9581,7 @@
         "Hostname": "D54CCKN2302201",
         "IP_Address": "10.2.7.211",
         "Last_Logged_in_User": "cbrigance",
-        "Last_Check_In": "2025-04-05T17:15:00Z",
+        "Last_Check_In": "2025-04-08T13:16:00Z",
         "Product": "Dell Precision 3630 Tower"
     },
     {
@@ -9742,8 +9742,8 @@
         "UUID": "4C4C4544-0052-3210-8039-C7C04F4E3233",
         "Hostname": "D5GR29N2306231",
         "IP_Address": "10.2.8.249",
-        "Last_Logged_in_User": "jwakefield",
-        "Last_Check_In": "2025-04-07T14:17:00Z",
+        "Last_Logged_in_User": "KGHOSHEH",
+        "Last_Check_In": "2025-04-08T16:47:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
@@ -10067,7 +10067,7 @@
         "Hostname": "A552CE960011192",
         "IP_Address": "10.2.2.200",
         "Last_Logged_in_User": "tcauble",
-        "Last_Check_In": "2025-04-05T18:14:00Z",
+        "Last_Check_In": "2025-04-08T23:29:00Z",
         "Product": "Acer Veriton X4640G"
     },
     {
@@ -10094,7 +10094,7 @@
         "Hostname": "D55YGQH6305222",
         "IP_Address": "10.2.2.216",
         "Last_Logged_in_User": "kcameron",
-        "Last_Check_In": "2025-04-07T20:07:00Z",
+        "Last_Check_In": "2025-04-08T20:13:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -10147,8 +10147,8 @@
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
         "IP_Address": "10.2.203.241,192.168.13.135",
-        "Last_Logged_in_User": "avelasquez",
-        "Last_Check_In": "2025-04-07T19:40:00Z",
+        "Last_Logged_in_User": "jbeckman",
+        "Last_Check_In": "2025-04-08T15:17:00Z",
         "Product": "GETAC S410G4"
     },
     {
@@ -10260,7 +10260,7 @@
         "Product": "Dell OptiPlex 3060"
     },
     {
-        "name": "D5HG6FDV206232",
+        "name": "D6HG6FDV206232",
         "created_by_source": "Itil::ScanAgent",
         "created_by_user": null,
         "last_updated_by_source": "Itil::ScanAgent",
@@ -10271,8 +10271,8 @@
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "HG6FDV2",
-        "OS": "Microsoft Windows 10 Pro",
-        "Version": "10.0.19045",
+        "OS": "Microsoft Windows 11 Pro",
+        "Version": "10.0.26100",
         "Service_Pack": "0.0",
         "Memory_GB": 15.83,
         "Disk_Space_GB": 465,
@@ -10280,10 +10280,10 @@
         "CPU_Core_Count": 6,
         "MAC_Address": "8C:EC:4B:B5:96:88",
         "UUID": "4C4C4544-0047-3610-8046-C8C04F445632",
-        "Hostname": "D5HG6FDV206232",
+        "Hostname": "D6HG6FDV206232",
         "IP_Address": "10.2.2.203",
-        "Last_Logged_in_User": "cmarkin",
-        "Last_Check_In": "2025-04-07T21:38:00Z",
+        "Last_Logged_in_User": "dfoote",
+        "Last_Check_In": "2025-04-08T22:53:00Z",
         "Product": "Dell OptiPlex 3060"
     },
     {
@@ -10742,7 +10742,7 @@
         "Hostname": "D586PGRP205221",
         "IP_Address": "10.2.2.187",
         "Last_Logged_in_User": "WSmith",
-        "Last_Check_In": "2025-04-05T16:41:00Z",
+        "Last_Check_In": "2025-04-08T22:19:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -11201,7 +11201,7 @@
         "Hostname": "D55Z8SH6310211",
         "IP_Address": "10.2.2.199",
         "Last_Logged_in_User": "mahlbrandt",
-        "Last_Check_In": "2025-04-05T18:03:00Z",
+        "Last_Check_In": "2025-04-08T19:14:00Z",
         "Product": "Dell OptiPlex 3080"
     },
     {
@@ -11253,9 +11253,9 @@
         "MAC_Address": "48:D2:24:6E:8E:84",
         "UUID": "C4CE2B61-0209-11E3-9673-CE39E79C5605",
         "Hostname": "CJDSHOP3",
-        "IP_Address": "172.27.15.28",
+        "IP_Address": "10.2.202.249",
         "Last_Logged_in_User": "byoung",
-        "Last_Check_In": "2025-04-04T23:02:00Z",
+        "Last_Check_In": "2025-04-08T23:25:00Z",
         "Product": "HP ProBook 4540s"
     },
     {
@@ -11388,9 +11388,9 @@
         "MAC_Address": "28:D2:44:26:5D:BB",
         "UUID": "DAD79E81-52A0-11CB-93B9-97B25CB7C2DD",
         "Hostname": "L5PF0M96W06212",
-        "IP_Address": "10.2.6.86,10.2.206.208",
+        "IP_Address": "10.2.6.86",
         "Last_Logged_in_User": "hberry",
-        "Last_Check_In": "2025-04-05T13:12:00Z",
+        "Last_Check_In": "2025-04-08T14:51:00Z",
         "Product": "LENOVO ThinkPad Edge E531"
     },
     {
@@ -11498,7 +11498,7 @@
         "Hostname": "L5PF1T16QY03221",
         "IP_Address": "10.2.2.162",
         "Last_Logged_in_User": "mgreen",
-        "Last_Check_In": "2025-04-07T13:01:00Z",
+        "Last_Check_In": "2025-04-08T23:56:00Z",
         "Product": "LENOVO ThinkPad L15 Gen 1"
     },
     {
@@ -11763,12 +11763,12 @@
         "Disk_Space_GB": 237,
         "CPU_Speed_GHz": 2.3,
         "CPU_Core_Count": 2,
-        "MAC_Address": "64:80:99:E3:77:2C",
+        "MAC_Address": "70:5A:0F:CC:B3:32",
         "UUID": "B06C23FF-F628-11E5-A330-62C7AC02C0FF",
         "Hostname": "CJDSHOP8",
-        "IP_Address": "172.27.15.95",
+        "IP_Address": "10.2.2.210",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-04-04T21:08:00Z",
+        "Last_Check_In": "2025-04-08T22:29:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
