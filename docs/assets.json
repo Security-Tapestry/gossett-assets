@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-03T00:36:00Z",
+        "Last_Check_In": "2025-06-03T21:36:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-02T12:41:00Z",
+        "Last_Check_In": "2025-06-03T19:33:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8689,8 +8689,8 @@
         "UUID": "4C4C4544-0030-5310-8030-C6C04F445833",
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
-        "Last_Logged_in_User": "AHATCHETT",
-        "Last_Check_In": "2025-05-24T14:31:00Z",
+        "Last_Logged_in_User": "speterson",
+        "Last_Check_In": "2025-06-03T15:25:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10634,7 +10634,7 @@
         "Hostname": "AUDIGETAC10",
         "IP_Address": "10.2.206.235",
         "Last_Logged_in_User": "oparham",
-        "Last_Check_In": "2025-06-02T12:30:00Z",
+        "Last_Check_In": "2025-06-03T15:20:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -11363,7 +11363,7 @@
         "Hostname": "CJDSHOP7",
         "IP_Address": "10.2.2.242",
         "Last_Logged_in_User": "woverstreet",
-        "Last_Check_In": "2025-06-02T07:43:00Z",
+        "Last_Check_In": "2025-06-03T08:17:00Z",
         "Product": "HP ProBook 4540s"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-06-02T16:37:00Z",
+        "Last_Check_In": "2025-06-03T17:16:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
