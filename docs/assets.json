@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-05T19:51:00Z",
+        "Last_Check_In": "2025-06-06T22:37:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -3641,7 +3641,7 @@
         "Hostname": "AUDIGETAC14",
         "IP_Address": "10.2.206.233,192.168.13.180",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-02T20:45:00Z",
+        "Last_Check_In": "2025-06-06T12:54:00Z",
         "Product": "GETAC S410G3"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-05T12:13:00Z",
+        "Last_Check_In": "2025-06-06T13:54:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "speterson",
-        "Last_Check_In": "2025-06-04T19:08:00Z",
+        "Last_Check_In": "2025-06-06T02:00:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10634,7 +10634,7 @@
         "Hostname": "AUDIGETAC10",
         "IP_Address": "10.2.206.235",
         "Last_Logged_in_User": "oparham",
-        "Last_Check_In": "2025-06-04T19:43:00Z",
+        "Last_Check_In": "2025-06-06T13:18:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -11363,7 +11363,7 @@
         "Hostname": "CJDSHOP7",
         "IP_Address": "10.2.2.242",
         "Last_Logged_in_User": "woverstreet",
-        "Last_Check_In": "2025-06-05T04:54:00Z",
+        "Last_Check_In": "2025-06-06T03:38:00Z",
         "Product": "HP ProBook 4540s"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-06-05T19:42:00Z",
+        "Last_Check_In": "2025-06-06T22:42:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
