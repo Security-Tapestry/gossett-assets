@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-11T20:26:00Z",
+        "Last_Check_In": "2025-06-14T00:36:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -6260,7 +6260,7 @@
         "Hostname": "L5PF06ZCX303221",
         "IP_Address": "10.6.1.162",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-06-12T23:27:00Z",
+        "Last_Check_In": "2025-06-13T08:27:00Z",
         "Product": "LENOVO ThinkPad Edge E440"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "AHATCHETT",
-        "Last_Check_In": "2025-06-12T07:25:00Z",
+        "Last_Check_In": "2025-06-14T00:55:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10143,12 +10143,12 @@
         "Disk_Space_GB": 451,
         "CPU_Speed_GHz": 2.61,
         "CPU_Core_Count": 4,
-        "MAC_Address": "F4:46:37:85:BA:9C",
+        "MAC_Address": "B0:1F:81:D8:14:2F",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "10.2.208.241,192.168.13.205",
-        "Last_Logged_in_User": "jbeckman",
-        "Last_Check_In": "2025-06-12T18:06:00Z",
+        "IP_Address": "10.2.203.241,192.168.13.205",
+        "Last_Logged_in_User": "avelasquez",
+        "Last_Check_In": "2025-06-13T19:26:00Z",
         "Product": "GETAC S410G4"
     },
     {
@@ -11363,7 +11363,7 @@
         "Hostname": "CJDSHOP7",
         "IP_Address": "10.2.2.242",
         "Last_Logged_in_User": "woverstreet",
-        "Last_Check_In": "2025-06-12T02:06:00Z",
+        "Last_Check_In": "2025-06-13T05:42:00Z",
         "Product": "HP ProBook 4540s"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-06-11T21:41:00Z",
+        "Last_Check_In": "2025-06-13T02:42:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
