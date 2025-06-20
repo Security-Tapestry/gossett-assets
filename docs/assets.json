@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-18T15:36:00Z",
+        "Last_Check_In": "2025-06-19T05:43:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-18T15:13:00Z",
+        "Last_Check_In": "2025-06-19T03:59:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -5395,8 +5395,8 @@
         "UUID": "00000000-0000-0000-0000-002220244672",
         "Hostname": "VWGGETAC38",
         "IP_Address": "10.3.101.225,192.168.13.230",
-        "Last_Logged_in_User": "GBROWN",
-        "Last_Check_In": "2025-06-12T17:52:00Z",
+        "Last_Logged_in_User": "gbrown",
+        "Last_Check_In": "2025-06-19T15:37:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-06-17T21:05:00Z",
+        "Last_Check_In": "2025-06-19T03:24:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
