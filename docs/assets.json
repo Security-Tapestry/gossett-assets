@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-27T00:59:00Z",
+        "Last_Check_In": "2025-06-27T22:47:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-26T12:33:00Z",
+        "Last_Check_In": "2025-06-27T18:52:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "speterson",
-        "Last_Check_In": "2025-06-26T22:15:00Z",
+        "Last_Check_In": "2025-06-27T02:06:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10143,12 +10143,12 @@
         "Disk_Space_GB": 451,
         "CPU_Speed_GHz": 2.61,
         "CPU_Core_Count": 4,
-        "MAC_Address": "8E:25:7A:A1:19:72",
+        "MAC_Address": "F4:46:37:85:BA:9C",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "192.168.13.204",
-        "Last_Logged_in_User": "dcarpenter",
-        "Last_Check_In": "2025-06-26T14:35:00Z",
+        "IP_Address": "10.2.208.241,192.168.13.168",
+        "Last_Logged_in_User": "avelasquez",
+        "Last_Check_In": "2025-06-27T13:43:00Z",
         "Product": "GETAC S410G4"
     },
     {
@@ -10629,12 +10629,12 @@
         "Disk_Space_GB": 223,
         "CPU_Speed_GHz": 2.5,
         "CPU_Core_Count": 2,
-        "MAC_Address": "62:B4:3D:68:E7:50",
+        "MAC_Address": "DC:FB:48:C0:89:8D",
         "UUID": "00000000-0000-0000-0000-002220244398",
         "Hostname": "AUDIGETAC10",
-        "IP_Address": "192.168.13.203,10.2.206.235",
+        "IP_Address": "10.2.206.235",
         "Last_Logged_in_User": "oparham",
-        "Last_Check_In": "2025-06-26T13:49:00Z",
+        "Last_Check_In": "2025-06-27T19:02:00Z",
         "Product": "GETAC S410"
     },
     {
