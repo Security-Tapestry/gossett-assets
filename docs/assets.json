@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-06-30T16:50:00Z",
+        "Last_Check_In": "2025-07-01T23:56:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4331,8 +4331,8 @@
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "PF35WVED",
-        "OS": "Microsoft Windows 10 Pro",
-        "Version": "10.0.19045",
+        "OS": "Microsoft Windows 11 Pro",
+        "Version": "10.0.26100",
         "Service_Pack": "0.0",
         "Memory_GB": 7.23,
         "Disk_Space_GB": 237,
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-06-30T03:40:00Z",
+        "Last_Check_In": "2025-07-01T15:46:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -6259,8 +6259,8 @@
         "UUID": "F72F67F1-859E-11E4-B57F-68F72850DE04",
         "Hostname": "L5PF06ZCX303221",
         "IP_Address": "10.6.1.162",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-06-25T21:32:00Z",
+        "Last_Logged_in_User": "kgates",
+        "Last_Check_In": "2025-07-01T18:21:00Z",
         "Product": "LENOVO ThinkPad Edge E440"
     },
     {
@@ -10143,12 +10143,12 @@
         "Disk_Space_GB": 451,
         "CPU_Speed_GHz": 2.61,
         "CPU_Core_Count": 4,
-        "MAC_Address": "F4:46:37:85:BA:9C",
+        "MAC_Address": "B0:1F:81:D8:14:2F",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "10.2.208.241,192.168.13.168",
-        "Last_Logged_in_User": "avelasquez",
-        "Last_Check_In": "2025-06-27T13:43:00Z",
+        "IP_Address": "10.2.203.241,192.168.13.168",
+        "Last_Logged_in_User": "jbeckman",
+        "Last_Check_In": "2025-07-01T20:27:00Z",
         "Product": "GETAC S410G4"
     },
     {
