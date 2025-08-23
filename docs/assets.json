@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-08-20T23:07:00Z",
+        "Last_Check_In": "2025-08-22T02:35:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-08-21T14:32:00Z",
+        "Last_Check_In": "2025-08-22T23:43:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "raeschliman",
-        "Last_Check_In": "2025-08-21T07:53:00Z",
+        "Last_Check_In": "2025-08-22T16:03:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10629,12 +10629,12 @@
         "Disk_Space_GB": 223,
         "CPU_Speed_GHz": 2.5,
         "CPU_Core_Count": 2,
-        "MAC_Address": "DC:FB:48:C0:89:8D",
+        "MAC_Address": "56:39:AB:A7:3B:93",
         "UUID": "00000000-0000-0000-0000-002220244398",
         "Hostname": "AUDIGETAC10",
-        "IP_Address": "10.2.206.235",
+        "IP_Address": "192.168.13.151,10.2.206.235",
         "Last_Logged_in_User": "oparham",
-        "Last_Check_In": "2025-08-20T14:23:00Z",
+        "Last_Check_In": "2025-08-22T13:10:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-08-21T02:32:00Z",
+        "Last_Check_In": "2025-08-22T09:16:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
