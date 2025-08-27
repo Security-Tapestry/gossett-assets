@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-08-25T16:39:00Z",
+        "Last_Check_In": "2025-08-27T00:32:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -3639,9 +3639,9 @@
         "MAC_Address": "7C:50:79:20:70:EC",
         "UUID": "0E50E73B-3942-4A75-8A15-B816F795F4E6",
         "Hostname": "AUDIGETAC14",
-        "IP_Address": "10.2.206.233,192.168.13.141",
+        "IP_Address": "10.2.206.233,192.168.13.105",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-08-20T16:57:00Z",
+        "Last_Check_In": "2025-08-26T14:33:00Z",
         "Product": "GETAC S410G3"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-08-25T10:46:00Z",
+        "Last_Check_In": "2025-08-26T17:05:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "raeschliman",
-        "Last_Check_In": "2025-08-25T00:49:00Z",
+        "Last_Check_In": "2025-08-26T16:38:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10143,12 +10143,12 @@
         "Disk_Space_GB": 451,
         "CPU_Speed_GHz": 2.61,
         "CPU_Core_Count": 4,
-        "MAC_Address": "F4:46:37:85:BA:9C",
+        "MAC_Address": "B0:1F:81:D8:14:2F",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "10.2.208.241,192.168.13.136",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-08-08T22:51:00Z",
+        "IP_Address": "10.2.203.241,192.168.13.150",
+        "Last_Logged_in_User": "Canderson",
+        "Last_Check_In": "2025-08-27T00:51:00Z",
         "Product": "GETAC S410G4"
     },
     {
