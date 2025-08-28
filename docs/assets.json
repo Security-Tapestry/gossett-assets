@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-08-27T00:32:00Z",
+        "Last_Check_In": "2025-08-27T16:14:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-08-26T17:05:00Z",
+        "Last_Check_In": "2025-08-27T23:22:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8689,8 +8689,8 @@
         "UUID": "4C4C4544-0030-5310-8030-C6C04F445833",
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
-        "Last_Logged_in_User": "raeschliman",
-        "Last_Check_In": "2025-08-26T16:38:00Z",
+        "Last_Logged_in_User": "speterson",
+        "Last_Check_In": "2025-08-27T15:24:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10146,9 +10146,9 @@
         "MAC_Address": "B0:1F:81:D8:14:2F",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "10.2.203.241,192.168.13.150",
-        "Last_Logged_in_User": "Canderson",
-        "Last_Check_In": "2025-08-27T00:51:00Z",
+        "IP_Address": "10.2.203.241,192.168.13.120",
+        "Last_Logged_in_User": "avelasquez",
+        "Last_Check_In": "2025-08-27T20:42:00Z",
         "Product": "GETAC S410G4"
     },
     {
@@ -10629,12 +10629,12 @@
         "Disk_Space_GB": 223,
         "CPU_Speed_GHz": 2.5,
         "CPU_Core_Count": 2,
-        "MAC_Address": "DC:FB:48:C0:89:8D",
+        "MAC_Address": "7E:2E:87:BD:50:DA",
         "UUID": "00000000-0000-0000-0000-002220244398",
         "Hostname": "AUDIGETAC10",
-        "IP_Address": "10.2.206.235",
+        "IP_Address": "192.168.13.151,10.2.206.235",
         "Last_Logged_in_User": "oparham",
-        "Last_Check_In": "2025-08-25T14:14:00Z",
+        "Last_Check_In": "2025-08-27T12:47:00Z",
         "Product": "GETAC S410"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-08-25T23:39:00Z",
+        "Last_Check_In": "2025-08-27T11:04:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
