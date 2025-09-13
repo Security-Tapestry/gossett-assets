@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-09-11T04:15:00Z",
+        "Last_Check_In": "2025-09-12T22:29:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-09-11T19:44:00Z",
+        "Last_Check_In": "2025-09-12T18:16:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -6260,7 +6260,7 @@
         "Hostname": "L5PF06ZCX303221",
         "IP_Address": "10.6.1.162",
         "Last_Logged_in_User": "kgates",
-        "Last_Check_In": "2025-09-09T13:33:00Z",
+        "Last_Check_In": "2025-09-12T19:36:00Z",
         "Product": "LENOVO ThinkPad Edge E440"
     },
     {
@@ -8689,8 +8689,8 @@
         "UUID": "4C4C4544-0030-5310-8030-C6C04F445833",
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
-        "Last_Logged_in_User": "tleake",
-        "Last_Check_In": "2025-09-11T22:44:00Z",
+        "Last_Logged_in_User": null,
+        "Last_Check_In": "2025-09-13T00:44:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10143,12 +10143,12 @@
         "Disk_Space_GB": 451,
         "CPU_Speed_GHz": 2.61,
         "CPU_Core_Count": 4,
-        "MAC_Address": "F4:46:37:85:BA:9C",
+        "MAC_Address": "B0:1F:81:D8:14:2F",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWGETAC69",
-        "IP_Address": "10.2.208.241,192.168.13.248",
-        "Last_Logged_in_User": "kneff",
-        "Last_Check_In": "2025-09-11T17:34:00Z",
+        "IP_Address": "10.2.203.241,192.168.13.231",
+        "Last_Logged_in_User": null,
+        "Last_Check_In": "2025-09-12T20:35:00Z",
         "Product": "GETAC S410G4"
     },
     {
@@ -11768,7 +11768,7 @@
         "Hostname": "CJDSHOP8",
         "IP_Address": "172.27.15.95",
         "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-09-11T00:42:00Z",
+        "Last_Check_In": "2025-09-12T19:37:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
