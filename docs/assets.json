@@ -1778,7 +1778,7 @@
         "Hostname": "D5FHNB5L209202",
         "IP_Address": "10.2.7.205",
         "Last_Logged_in_User": "swatson",
-        "Last_Check_In": "2025-09-18T11:29:00Z",
+        "Last_Check_In": "2025-09-19T16:30:00Z",
         "Product": "Dell OptiPlex 3050"
     },
     {
@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-09-18T09:10:00Z",
+        "Last_Check_In": "2025-09-19T16:54:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "tleake",
-        "Last_Check_In": "2025-09-17T22:33:00Z",
+        "Last_Check_In": "2025-09-19T14:26:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -11173,8 +11173,8 @@
         "UUID": "4C4C4544-0031-3110-8038-C8C04F4E3233",
         "Hostname": "D5H118N2302201",
         "IP_Address": "10.2.2.181",
-        "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-03-27T21:36:00Z",
+        "Last_Logged_in_User": "jward",
+        "Last_Check_In": "2025-09-19T18:01:00Z",
         "Product": "Dell OptiPlex 3070"
     },
     {
