@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-11-03T18:05:00Z",
+        "Last_Check_In": "2025-11-04T15:53:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -5006,8 +5006,8 @@
         "Domain": "gossett.local",
         "State": "In Use",
         "Serial_Number": "BGW1DX3",
-        "OS": "Microsoft Windows 10 Pro",
-        "Version": "10.0.19045",
+        "OS": "Microsoft Windows 11 Pro",
+        "Version": "10.0.26100",
         "Service_Pack": "0.0",
         "Memory_GB": 15.7,
         "Disk_Space_GB": 471,
@@ -5018,7 +5018,7 @@
         "Hostname": "D5BGW1DX307231",
         "IP_Address": "10.5.1.235",
         "Last_Logged_in_User": null,
-        "Last_Check_In": "2025-04-30T13:28:00Z",
+        "Last_Check_In": "2025-11-04T19:55:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -8690,7 +8690,7 @@
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
         "Last_Logged_in_User": "tleake",
-        "Last_Check_In": "2025-11-03T18:41:00Z",
+        "Last_Check_In": "2025-11-04T22:23:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -11767,8 +11767,8 @@
         "UUID": "B06C23FF-F628-11E5-A330-62C7AC02C0FF",
         "Hostname": "CJDSHOP8",
         "IP_Address": "10.2.202.212",
-        "Last_Logged_in_User": "mboydston",
-        "Last_Check_In": "2025-11-03T08:48:00Z",
+        "Last_Logged_in_User": "jward",
+        "Last_Check_In": "2025-11-04T22:24:00Z",
         "Product": "HP EliteBook 840 G2"
     },
     {
