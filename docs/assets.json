@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-11-25T22:55:00Z",
+        "Last_Check_In": "2025-11-26T13:07:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -10146,9 +10146,9 @@
         "MAC_Address": "F4:46:37:85:BA:9C",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWPGETAC69",
-        "IP_Address": "10.2.208.241",
-        "Last_Logged_in_User": "Disom",
-        "Last_Check_In": "2025-11-24T16:01:00Z",
+        "IP_Address": "10.2.208.241,192.168.13.203",
+        "Last_Logged_in_User": "slewis",
+        "Last_Check_In": "2025-11-26T16:06:00Z",
         "Product": "GETAC S410G4"
     },
     {
