@@ -4343,7 +4343,7 @@
         "Hostname": "L5PF35WVED09211",
         "IP_Address": "10.2.206.223",
         "Last_Logged_in_User": "abryngelson",
-        "Last_Check_In": "2025-12-29T01:55:00Z",
+        "Last_Check_In": "2025-12-30T08:14:00Z",
         "Product": "LENOVO ThinkPad E14 Gen 2"
     },
     {
@@ -8689,8 +8689,8 @@
         "UUID": "4C4C4544-0030-5310-8030-C6C04F445833",
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
-        "Last_Logged_in_User": "Tleake",
-        "Last_Check_In": "2025-12-29T15:00:00Z",
+        "Last_Logged_in_User": "tleake",
+        "Last_Check_In": "2025-12-30T23:31:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
@@ -10146,9 +10146,9 @@
         "MAC_Address": "F4:46:37:85:BA:9C",
         "UUID": "3695ECB1-E786-46C4-B0B5-CD78E6CCB1AA",
         "Hostname": "VWPGETAC69",
-        "IP_Address": "10.2.208.241,192.168.13.163",
-        "Last_Logged_in_User": "jbaddley",
-        "Last_Check_In": "2025-12-26T15:37:00Z",
+        "IP_Address": "10.2.208.241,192.168.13.243",
+        "Last_Logged_in_User": "slewis",
+        "Last_Check_In": "2025-12-30T21:22:00Z",
         "Product": "GETAC S410G4"
     },
     {
