@@ -8689,8 +8689,8 @@
         "UUID": "4C4C4544-0030-5310-8030-C6C04F445833",
         "Hostname": "D6F0S0DX305231",
         "IP_Address": "10.2.8.201",
-        "Last_Logged_in_User": "tleake",
-        "Last_Check_In": "2026-01-08T15:57:00Z",
+        "Last_Logged_in_User": null,
+        "Last_Check_In": "2026-01-09T21:22:00Z",
         "Product": "Dell OptiPlex SFF 7010"
     },
     {
